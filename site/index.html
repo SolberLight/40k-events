@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tournois 40k France</title>
+<meta name="description" content="Carte et calendrier des tournois Warhammer 40 000 en France, agrégés depuis MiniHeadQuarters et Best Coast Pairings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css" crossorigin="">
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #12141a;
+  --surface: #1a1d25;
+  --surface-2: #232733;
+  --line: #2f3442;
+  --text: #ece8dd;
+  --muted: #9a9eab;
+  --accent: #d6a33f;
+  --accent-ink: #1a1508;
+  --bcp: #5b8fd6;
+  --mhq: #e2743c;
+  --past: #6b6f7a;
+  --ok: #6fbf73;
+  --focus: #ffd97a;
+  --shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  --map-filter: none;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+    --bg: #eef0f3;
+    --surface: #ffffff;
+    --surface-2: #f4f5f8;
+    --line: #d6d9e0;
+    --text: #1c1f26;
+    --muted: #5f6472;
+    --accent: #a8791c;
+    --accent-ink: #ffffff;
+    --bcp: #2f66b3;
+    --mhq: #c2551b;
+    --past: #8b8f9a;
+    --ok: #2f8f3a;
+    --focus: #7a5a00;
+    --shadow: 0 10px 30px rgba(20, 30, 60, .15);
+  }
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #eef0f3;
+  --surface: #ffffff;
+  --surface-2: #f4f5f8;
+  --line: #d6d9e0;
+  --text: #1c1f26;
+  --muted: #5f6472;
+  --accent: #a8791c;
+  --accent-ink: #ffffff;
+  --bcp: #2f66b3;
+  --mhq: #c2551b;
+  --past: #8b8f9a;
+  --ok: #2f8f3a;
+  --focus: #7a5a00;
+  --shadow: 0 10px 30px rgba(20, 30, 60, .15);
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Barlow", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+}
+a { color: inherit; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.display { font-family: "Barlow Condensed", "Arial Narrow", "Barlow", sans-serif; }
+.label {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* ---------- header ---------- */
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 20px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+.brand { display: flex; align-items: baseline; gap: 12px; }
+.brand h1 {
+  margin: 0;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.brand h1 em { color: var(--accent); font-style: normal; }
+.brand .sub { color: var(--muted); font-size: 13px; }
+.stats { display: flex; gap: 18px; margin-left: auto; font-variant-numeric: tabular-nums; }
+.stat { display: flex; flex-direction: column; line-height: 1.05; }
+.stat b { font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-size: 22px; font-weight: 700; }
+.stat.up b { color: var(--accent); }
+.freshness { width: 100%; font-size: 12px; color: var(--muted); }
+.freshness span + span::before { content: " · "; }
+
+/* ---------- layout ---------- */
+.app { flex: 1; min-height: 0; display: grid; grid-template-columns: 430px 1fr; }
+.side { display: flex; flex-direction: column; min-height: 0; border-right: 1px solid var(--line); background: var(--bg); }
+.mapwrap { position: relative; min-height: 0; }
+#map { position: absolute; inset: 0; background: var(--surface-2); }
+.map-tools { position: absolute; right: 12px; top: 12px; z-index: 500; display: flex; flex-direction: column; gap: 6px; }
+.legend {
+  position: absolute; left: 12px; bottom: 24px; z-index: 500;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+  padding: 8px 10px; display: flex; gap: 12px; font-size: 12px; box-shadow: var(--shadow);
+}
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+.legend .s-bcp i { background: var(--bcp); }
+.legend .s-mhq i { background: var(--mhq); }
+.legend .s-both i { background: linear-gradient(90deg, var(--mhq) 50%, var(--bcp) 50%); }
+.legend .s-past i { background: var(--past); width: 7px; height: 7px; }
+
+/* ---------- filters ---------- */
+.filters { border-bottom: 1px solid var(--line); background: var(--surface); }
+.filters summary { list-style: none; cursor: pointer; padding: 10px 16px; display: flex; align-items: center; gap: 10px; }
+.filters summary::-webkit-details-marker { display: none; }
+.filters summary .count { margin-left: auto; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.filters summary .chev { color: var(--muted); transition: transform .15s; }
+.filters[open] summary .chev { transform: rotate(180deg); }
+.fgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 12px; padding: 0 16px 14px; }
+.fgrid .full { grid-column: 1 / -1; }
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field input, .field select {
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px;
+  padding: 7px 9px; min-width: 0; width: 100%;
+}
+.field input::placeholder { color: var(--muted); }
+.seg { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.seg button { flex: 1; background: var(--surface-2); border: 0; padding: 7px 4px; cursor: pointer; color: var(--muted); }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.frow { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.frow .seg { flex: 1; min-width: 150px; }
+.frow .seg button { padding-inline: 10px; }
+.btn {
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px;
+  padding: 7px 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+}
+.btn:hover { border-color: var(--muted); }
+.btn.small { padding: 5px 8px; font-size: 13px; }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: transparent; font-weight: 600; }
+.btn svg { width: 14px; height: 14px; fill: currentColor; }
+.hint { font-size: 12px; color: var(--muted); }
+
+/* ---------- list ---------- */
+.list { flex: 1; min-height: 0; overflow-y: auto; padding: 8px 16px 24px; }
+.group-h {
+  position: sticky; top: 0; z-index: 2;
+  background: var(--bg); padding: 12px 0 6px; margin-top: 8px;
+  display: flex; align-items: baseline; gap: 8px; border-bottom: 1px solid var(--line);
+}
+.group-h h2 { margin: 0; font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-size: 18px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.group-h .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+.ev {
+  display: grid; grid-template-columns: 52px 1fr; gap: 0 12px;
+  padding: 10px 6px; margin: 0 -6px; border-bottom: 1px solid var(--line);
+  cursor: pointer; border-radius: 6px;
+}
+.ev:hover, .ev.active { background: var(--surface); }
+.ev.active { box-shadow: inset 3px 0 0 var(--accent); }
+.ev .d { text-align: center; line-height: 1; padding-top: 2px; }
+.ev .d b { display: block; font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.ev .d span { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-top: 3px; }
+.ev .d .wd { color: var(--accent); }
+.ev .t { margin: 0; font-weight: 600; font-size: 15px; line-height: 1.25; text-wrap: balance; }
+.ev .t a { text-decoration: none; }
+.ev .t a:hover { text-decoration: underline; }
+.ev .where { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.ev .where .km { color: var(--text); }
+.chips { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 6px; }
+.chip {
+  font-size: 11.5px; padding: 2px 7px; border-radius: 4px; border: 1px solid var(--line);
+  background: var(--surface-2); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.chip.src { color: #fff; border-color: transparent; font-family: "Barlow Condensed", "Arial Narrow", sans-serif; letter-spacing: .06em; text-transform: uppercase; font-weight: 600; }
+.chip.src-bcp { background: var(--bcp); }
+.chip.src-mhq { background: var(--mhq); }
+.chip.src-both { background: linear-gradient(100deg, var(--mhq) 50%, var(--bcp) 50%); }
+.chip.full { border-color: var(--accent); color: var(--accent); }
+.chip.open { border-color: var(--ok); color: var(--ok); }
+.chip.nogeo { border-style: dashed; }
+.ev.past { opacity: .62; }
+.ev.past:hover, .ev.past.active { opacity: 1; }
+.ev.past .d .wd { color: var(--past); }
+.empty { padding: 40px 10px; text-align: center; color: var(--muted); }
+
+/* ---------- map markers ---------- */
+.pin { width: 14px; height: 14px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.5); background: var(--bcp); }
+.pin.src-mhq { background: var(--mhq); }
+.pin.src-both { background: linear-gradient(90deg, var(--mhq) 50%, var(--bcp) 50%); }
+.pin.past { width: 10px; height: 10px; background: var(--past); border-width: 1.5px; opacity: .85; }
+.pin.hl { transform: scale(1.6); box-shadow: 0 0 0 4px rgba(214, 163, 63, .45), 0 1px 6px rgba(0,0,0,.6); }
+.marker-cluster { background: rgba(214, 163, 63, .35); border-radius: 50%; }
+.marker-cluster div { width: 30px; height: 30px; margin: 5px; border-radius: 50%; text-align: center; background: var(--accent); color: var(--accent-ink); font: 600 14px/30px "Barlow Condensed", "Arial Narrow", sans-serif; }
+.leaflet-popup-content-wrapper { background: var(--surface); color: var(--text); border-radius: 8px; box-shadow: var(--shadow); }
+.leaflet-popup-tip { background: var(--surface); }
+.leaflet-popup-content { margin: 12px 14px; font: 14px/1.4 "Barlow", sans-serif; }
+.pop h3 { margin: 0 0 4px; font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-size: 18px; line-height: 1.15; }
+.pop .meta { color: var(--muted); font-size: 13px; }
+.pop p { margin: 6px 0 0; font-size: 13px; }
+.pop .links { margin-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+.pop .links a { font-size: 13px; padding: 4px 8px; border: 1px solid var(--line); border-radius: 5px; text-decoration: none; }
+.pop .links a:hover { border-color: var(--accent); }
+.leaflet-container a.leaflet-popup-close-button { color: var(--muted); }
+.leaflet-bar a { background: var(--surface); color: var(--text); border-bottom-color: var(--line); }
+.leaflet-control-attribution { background: rgba(0,0,0,.4); color: #ddd; font-size: 10px; }
+.leaflet-control-attribution a { color: #fff; }
+.leaflet-tile-pane { filter: var(--map-filter); }
+:root:not([data-theme="light"]) { --map-filter: brightness(.82) saturate(.75); }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --map-filter: none; } }
+
+/* ---------- phone ---------- */
+@media (max-width: 820px) {
+  body { height: auto; min-height: 100%; }
+  .app { display: flex; flex-direction: column; }
+  .mapwrap { order: -1; height: 46vh; min-height: 300px; }
+  .side { border-right: 0; }
+  .list { overflow: visible; }
+  .stats { margin-left: 0; }
+  .fgrid { grid-template-columns: 1fr; }
+  .group-h { top: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .filters summary .chev, .pin { transition: none; } }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <h1>Tournois <em>40k</em> France</h1>
+    <span class="sub">MiniHeadQuarters + Best Coast Pairings</span>
+  </div>
+  <div class="stats" id="stats">
+    <div class="stat up"><b id="st-up">–</b><span class="label">à venir</span></div>
+    <div class="stat"><b id="st-past">–</b><span class="label">passés</span></div>
+    <div class="stat"><b id="st-total">–</b><span class="label">au total</span></div>
+  </div>
+  <div class="freshness" id="freshness"></div>
+</header>
+
+<div class="app">
+  <aside class="side">
+    <details class="filters" id="filters" open>
+      <summary>
+        <span class="label">Filtres</span>
+        <span class="count" id="result-count"></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="fgrid">
+        <div class="field full">
+          <label class="label" for="q">Recherche</label>
+          <input type="search" id="q" placeholder="Nom, ville, département, organisateur…" autocomplete="off">
+        </div>
+        <div class="field full">
+          <span class="label">Période</span>
+          <div class="seg" id="seg-time" role="group" aria-label="Période">
+            <button type="button" data-v="upcoming" aria-pressed="true">À venir</button>
+            <button type="button" data-v="past" aria-pressed="false">Passés</button>
+            <button type="button" data-v="all" aria-pressed="false">Tous</button>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label" for="from">Du</label>
+          <input type="date" id="from">
+        </div>
+        <div class="field">
+          <label class="label" for="to">Au</label>
+          <input type="date" id="to">
+        </div>
+        <div class="field">
+          <label class="label" for="region">Région</label>
+          <select id="region"><option value="">Toutes</option></select>
+        </div>
+        <div class="field">
+          <label class="label" for="source">Source</label>
+          <select id="source">
+            <option value="">Les deux</option>
+            <option value="mhq">MiniHeadQuarters</option>
+            <option value="bcp">Best Coast Pairings</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="label" for="kind">Format</label>
+          <select id="kind">
+            <option value="">Tous</option>
+            <option value="solo">Individuel</option>
+            <option value="team">Par équipes</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="label" for="minp">Joueurs min.</label>
+          <input type="number" id="minp" min="0" step="1" placeholder="0">
+        </div>
+        <div class="full frow">
+          <span class="label">Tri</span>
+          <div class="seg" id="seg-sort" role="group" aria-label="Tri">
+            <button type="button" data-v="date" aria-pressed="true">Date</button>
+            <button type="button" data-v="dist" aria-pressed="false">Distance</button>
+          </div>
+          <button type="button" class="btn small" id="geo" title="Utiliser ma position">
+            <svg viewBox="0 0 24 24"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm8.9 3A9 9 0 0 0 13 3.1V1h-2v2.1A9 9 0 0 0 3.1 11H1v2h2.1A9 9 0 0 0 11 20.9V23h2v-2.1a9 9 0 0 0 7.9-7.9H23v-2h-2.1zM12 19a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+            Ma position
+          </button>
+          <button type="button" class="btn small" id="reset">Réinitialiser</button>
+        </div>
+        <p class="hint full" id="geo-hint">Cliquez sur la carte avec la touche Maj pour choisir un point de référence.</p>
+      </div>
+    </details>
+    <div class="list" id="list"></div>
+  </aside>
+
+  <section class="mapwrap">
+    <div id="map" role="region" aria-label="Carte des tournois"></div>
+    <div class="map-tools">
+      <button type="button" class="btn small" id="fit">Recentrer</button>
+    </div>
+    <div class="legend">
+      <span class="s-mhq"><i></i>MiniHQ</span>
+      <span class="s-bcp"><i></i>BCP</span>
+      <span class="s-both"><i></i>Les deux</span>
+      <span class="s-past"><i></i>Passé</span>
+    </div>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" crossorigin=""></script>
+<script src="events.js"></script>
+<script>
+(function () {
+  'use strict';
+  const DATA = window.EVENTS_DATA || { events: [], regions: [], stats: {}, sources: {} };
+  const EVENTS = DATA.events.map((e, i) => Object.assign({ _i: i }, e));
+  const $ = (id) => document.getElementById(id);
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const TODAY = isoDate(today);
+
+  function isoDate(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+  function parseISO(s) { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); }
+  const fmtMonth = new Intl.DateTimeFormat('fr-FR', { month: 'short' });
+  const fmtWd = new Intl.DateTimeFormat('fr-FR', { weekday: 'short' });
+  const fmtLong = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  const fmtStamp = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+  function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+  function km(a, b) {
+    const R = 6371, toR = Math.PI / 180;
+    const dLat = (b.lat - a.lat) * toR, dLon = (b.lon - a.lon) * toR;
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * toR) * Math.cos(b.lat * toR) * Math.sin(dLon / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(h));
+  }
+
+  // ---------- state ----------
+  const state = { q: '', time: 'upcoming', from: '', to: '', region: '', source: '', kind: '', minp: 0, sort: 'date', ref: null };
+
+  function readHash() {
+    try {
+      const p = new URLSearchParams(location.hash.slice(1));
+      for (const k of ['q', 'time', 'from', 'to', 'region', 'source', 'kind', 'sort']) if (p.has(k)) state[k] = p.get(k);
+      if (p.has('minp')) state.minp = Number(p.get('minp')) || 0;
+      if (p.has('ref')) { const [la, lo] = p.get('ref').split(',').map(Number); if (isFinite(la) && isFinite(lo)) state.ref = { lat: la, lon: lo }; }
+    } catch (e) { /* ignore malformed hash */ }
+  }
+  function writeHash() {
+    const p = new URLSearchParams();
+    for (const k of ['q', 'from', 'to', 'region', 'source', 'kind']) if (state[k]) p.set(k, state[k]);
+    if (state.time !== 'upcoming') p.set('time', state.time);
+    if (state.minp) p.set('minp', state.minp);
+    if (state.sort !== 'date') p.set('sort', state.sort);
+    if (state.ref) p.set('ref', state.ref.lat.toFixed(4) + ',' + state.ref.lon.toFixed(4));
+    const h = p.toString();
+    history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+  }
+  function syncControls() {
+    $('q').value = state.q; $('from').value = state.from; $('to').value = state.to;
+    $('region').value = state.region; $('source').value = state.source; $('kind').value = state.kind;
+    $('minp').value = state.minp || '';
+    for (const b of $('seg-time').querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.v === state.time));
+    for (const b of $('seg-sort').querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.v === state.sort));
+  }
+
+  // ---------- filtering ----------
+  function matches(e) {
+    const d = e.date || '';
+    if (state.time === 'upcoming' && d < TODAY) return false;
+    if (state.time === 'past' && d >= TODAY) return false;
+    if (state.from && d < state.from) return false;
+    if (state.to && d > state.to) return false;
+    if (state.region && e.region !== state.region) return false;
+    if (state.source && !(e.urls && e.urls[state.source])) return false;
+    if (state.kind === 'team' && !e.teamEvent) return false;
+    if (state.kind === 'solo' && e.teamEvent) return false;
+    if (state.minp && (e.players || 0) < state.minp) return false;
+    if (state.q) {
+      const hay = e._hay || (e._hay = norm([e.name, e.altName, e.city, e.venue, e.address, e.dept, e.region, e.organizer, e.zip].join(' ')));
+      for (const w of norm(state.q).split(/\s+/).filter(Boolean)) if (!hay.includes(w)) return false;
+    }
+    return true;
+  }
+  function current() {
+    const out = EVENTS.filter(matches);
+    if (state.ref) for (const e of out) e._km = (e.lat != null) ? km(state.ref, e) : null;
+    if (state.sort === 'dist' && state.ref) out.sort((a, b) => (a._km ?? 1e9) - (b._km ?? 1e9) || a.date.localeCompare(b.date));
+    else out.sort((a, b) => a.date.localeCompare(b.date) || String(a.name).localeCompare(b.name));
+    return out;
+  }
+
+  // ---------- rendering: list ----------
+  const listEl = $('list');
+  function dateBlock(e) {
+    const d = parseISO(e.date);
+    let day = String(d.getDate());
+    if (e.endDate && e.endDate > e.date) { const d2 = parseISO(e.endDate); day = d.getDate() + '–' + d2.getDate(); }
+    return '<div class="d"><b>' + day + '</b><span>' + esc(fmtMonth.format(d).replace('.', '')) + (d.getFullYear() !== today.getFullYear() ? ' ' + d.getFullYear() : '') + '</span><span class="wd">' + esc(fmtWd.format(d).replace('.', '')) + '</span></div>';
+  }
+  function chips(e) {
+    const c = [];
+    c.push('<span class="chip src src-' + e.source + '">' + (e.source === 'both' ? 'MHQ + BCP' : e.source === 'mhq' ? 'MiniHQ' : 'BCP') + '</span>');
+    if (e.players != null) {
+      const full = e.capacity && e.players >= e.capacity;
+      c.push('<span class="chip' + (full ? ' full' : '') + '">' + e.players + (e.capacity ? '/' + e.capacity : '') + ' joueurs' + (full ? ' · complet' : '') + '</span>');
+    }
+    if (e.rounds) c.push('<span class="chip">' + e.rounds + ' rondes</span>');
+    if (e.teamEvent) c.push('<span class="chip">équipes</span>');
+    if (e.status === 'Registrations open' && e.date >= TODAY) c.push('<span class="chip open">inscriptions ouvertes</span>');
+    if (e.price) c.push('<span class="chip">' + e.price + ' ' + (e.currency ? e.currency.toUpperCase().replace('EUR', '€') : '') + '</span>');
+    for (const b of (e.badges || [])) c.push('<span class="chip">' + esc(b) + '</span>');
+    if (e.lat == null) c.push('<span class="chip nogeo">lieu non géolocalisé</span>');
+    return '<div class="chips">' + c.join('') + '</div>';
+  }
+  function where(e) {
+    const parts = [];
+    if (e.city) parts.push(esc(e.city) + (e.dept ? ' (' + e.dept + ')' : ''));
+    else if (e.address) parts.push(esc(e.address));
+    if (e.region) parts.push(esc(e.region));
+    let s = parts.join(' · ');
+    if (state.ref && e._km != null) s = '<span class="km">à ' + Math.round(e._km) + ' km</span>' + (s ? ' · ' + s : '');
+    return s || '<em>lieu inconnu</em>';
+  }
+  function card(e) {
+    const past = e.date < TODAY;
+    return '<article class="ev' + (past ? ' past' : '') + '" data-i="' + e._i + '" tabindex="0">' + dateBlock(e) +
+      '<div><h3 class="t"><a href="' + esc(e.url) + '" target="_blank" rel="noopener">' + esc(e.name) + '</a></h3>' +
+      '<div class="where">' + where(e) + '</div>' + chips(e) + '</div></article>';
+  }
+  function renderList(items) {
+    const up = items.filter((e) => e.date >= TODAY);
+    const past = items.filter((e) => e.date < TODAY);
+    if (state.sort !== 'dist' || !state.ref) past.reverse();
+    let html = '';
+    if (!items.length) html = '<div class="empty">Aucun tournoi ne correspond à ces filtres.</div>';
+    if (up.length) html += '<div class="group-h"><h2>À venir</h2><span class="n">' + up.length + '</span></div>' + up.map(card).join('');
+    if (past.length) html += '<div class="group-h"><h2>Passés</h2><span class="n">' + past.length + '</span></div>' + past.map(card).join('');
+    listEl.innerHTML = html;
+    $('result-count').textContent = items.length + ' / ' + EVENTS.length + ' tournoi' + (items.length > 1 ? 's' : '');
+  }
+  function renderStats() {
+    const up = EVENTS.filter((e) => e.date >= TODAY).length;
+    $('st-up').textContent = up; $('st-past').textContent = EVENTS.length - up; $('st-total').textContent = EVENTS.length;
+  }
+
+  // ---------- map ----------
+  const map = L.map('map', { zoomControl: true, worldCopyJump: true }).setView([46.6, 2.4], 6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+  const cluster = L.markerClusterGroup({ maxClusterRadius: 38, showCoverageOnHover: false, spiderfyOnMaxZoom: true, disableClusteringAtZoom: 12 });
+  map.addLayer(cluster);
+  let refMarker = null;
+  const markers = new Map();
+
+  function popup(e) {
+    const d = parseISO(e.date);
+    const links = Object.entries(e.urls || {}).map(([k, u]) => '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + (k === 'bcp' ? 'Best Coast Pairings ↗' : 'MiniHeadQuarters ↗') + '</a>').join('');
+    return '<div class="pop"><h3>' + esc(e.name) + '</h3><div class="meta">' + esc(fmtLong.format(d)) + (e.endDate && e.endDate > e.date ? ' → ' + esc(fmtLong.format(parseISO(e.endDate))) : '') + '</div>' +
+      '<p>' + esc([e.venue, e.address].filter(Boolean).join(' · ')) + '</p>' + chips(e) + '<div class="links">' + links + '</div></div>';
+  }
+  function pin(e) {
+    const past = e.date < TODAY;
+    return L.divIcon({ className: '', html: '<div class="pin src-' + e.source + (past ? ' past' : '') + '" id="pin-' + e._i + '"></div>', iconSize: past ? [10, 10] : [14, 14], iconAnchor: past ? [5, 5] : [7, 7], popupAnchor: [0, -8] });
+  }
+  function renderMap(items, fit) {
+    cluster.clearLayers(); markers.clear();
+    const pts = [];
+    for (const e of items) {
+      if (e.lat == null || e.lon == null) continue;
+      const m = L.marker([e.lat, e.lon], { icon: pin(e), title: e.name, zIndexOffset: e.date < TODAY ? 0 : 500 });
+      m.bindPopup(() => popup(e), { maxWidth: 320 });
+      m.on('click', () => setActive(e._i, false));
+      markers.set(e._i, m); cluster.addLayer(m); pts.push([e.lat, e.lon]);
+    }
+    if (state.ref) {
+      if (!refMarker) refMarker = L.circleMarker([0, 0], { radius: 7, color: '#d6a33f', weight: 2, fillColor: '#d6a33f', fillOpacity: .35 }).addTo(map).bindTooltip('Point de référence');
+      refMarker.setLatLng([state.ref.lat, state.ref.lon]);
+    } else if (refMarker) { map.removeLayer(refMarker); refMarker = null; }
+    if (fit) fitTo(pts);
+  }
+  function fitTo(pts) {
+    if (pts.length > 1) map.fitBounds(L.latLngBounds(pts).pad(0.08), { maxZoom: 11 });
+    else if (pts.length === 1) map.setView(pts[0], 10);
+    else map.setView([46.6, 2.4], 6);
+  }
+
+  // ---------- interaction ----------
+  let active = null;
+  function setActive(i, pan) {
+    if (active != null) { const prev = listEl.querySelector('.ev[data-i="' + active + '"]'); if (prev) prev.classList.remove('active'); }
+    active = i;
+    const el = listEl.querySelector('.ev[data-i="' + i + '"]');
+    if (el) { el.classList.add('active'); if (!pan) el.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+    const m = markers.get(i);
+    if (m && pan) cluster.zoomToShowLayer(m, () => m.openPopup());
+  }
+  listEl.addEventListener('click', (ev) => {
+    if (ev.target.closest('a')) return;
+    const el = ev.target.closest('.ev'); if (!el) return;
+    setActive(Number(el.dataset.i), true);
+  });
+  listEl.addEventListener('keydown', (ev) => {
+    if (ev.key !== 'Enter' || ev.target.closest('a')) return;
+    const el = ev.target.closest('.ev'); if (el) setActive(Number(el.dataset.i), true);
+  });
+  listEl.addEventListener('mouseover', (ev) => { const el = ev.target.closest('.ev'); if (!el) return; const p = document.getElementById('pin-' + el.dataset.i); if (p) p.classList.add('hl'); });
+  listEl.addEventListener('mouseout', (ev) => { const el = ev.target.closest('.ev'); if (!el) return; const p = document.getElementById('pin-' + el.dataset.i); if (p) p.classList.remove('hl'); });
+
+  let items = [];
+  function update(fit) {
+    items = current();
+    renderList(items); renderMap(items, fit); writeHash();
+  }
+  let qTimer = null;
+  $('q').addEventListener('input', (ev) => { state.q = ev.target.value.trim(); clearTimeout(qTimer); qTimer = setTimeout(() => update(false), 120); });
+  for (const id of ['from', 'to', 'region', 'source', 'kind']) $(id).addEventListener('change', (ev) => { state[id] = ev.target.value; update(true); });
+  $('minp').addEventListener('input', (ev) => { state.minp = Number(ev.target.value) || 0; update(false); });
+  $('seg-time').addEventListener('click', (ev) => { const b = ev.target.closest('button'); if (!b) return; state.time = b.dataset.v; syncControls(); update(true); });
+  $('seg-sort').addEventListener('click', (ev) => {
+    const b = ev.target.closest('button'); if (!b) return;
+    state.sort = b.dataset.v;
+    if (state.sort === 'dist' && !state.ref) locate(); else { syncControls(); update(false); }
+  });
+  $('reset').addEventListener('click', () => { Object.assign(state, { q: '', time: 'upcoming', from: '', to: '', region: '', source: '', kind: '', minp: 0, sort: 'date', ref: null }); syncControls(); update(true); });
+  $('fit').addEventListener('click', () => fitTo(items.filter((e) => e.lat != null).map((e) => [e.lat, e.lon])));
+  $('geo').addEventListener('click', locate);
+  map.on('click', (ev) => { if (!ev.originalEvent.shiftKey) return; setRef(ev.latlng.lat, ev.latlng.lng); });
+  function setRef(lat, lon) { state.ref = { lat, lon }; state.sort = 'dist'; syncControls(); update(false); $('geo-hint').textContent = 'Point de référence : ' + lat.toFixed(3) + ', ' + lon.toFixed(3) + '. Maj + clic sur la carte pour le déplacer.'; }
+  function locate() {
+    if (!navigator.geolocation) { $('geo-hint').textContent = 'Géolocalisation indisponible : Maj + clic sur la carte pour choisir un point.'; return; }
+    $('geo-hint').textContent = 'Localisation en cours…';
+    navigator.geolocation.getCurrentPosition(
+      (pos) => setRef(pos.coords.latitude, pos.coords.longitude),
+      () => { $('geo-hint').textContent = 'Position refusée : Maj + clic sur la carte pour choisir un point de référence.'; state.sort = 'date'; syncControls(); update(false); },
+      { timeout: 8000, maximumAge: 600000 });
+  }
+
+  // ---------- boot ----------
+  for (const r of DATA.regions || []) { const o = document.createElement('option'); o.value = r; o.textContent = r; $('region').appendChild(o); }
+  const fr = [];
+  if (DATA.sources && DATA.sources.mhq) fr.push('<span>MiniHeadQuarters relevé le ' + esc(fmtStamp.format(new Date(DATA.sources.mhq))) + '</span>');
+  if (DATA.sources && DATA.sources.bcp) fr.push('<span>Best Coast Pairings relevé le ' + esc(fmtStamp.format(new Date(DATA.sources.bcp))) + '</span>');
+  if (DATA.stats) fr.push('<span>' + DATA.stats.total + ' tournois au total, dont ' + DATA.stats.merged + ' présents sur les deux sites</span>');
+  $('freshness').innerHTML = fr.join('');
+  readHash(); syncControls(); renderStats();
+  if (window.matchMedia('(max-width: 820px)').matches) $('filters').removeAttribute('open');
+  update(true);
+})();
+</script>
+</body>
+</html>
