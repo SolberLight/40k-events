@@ -16,7 +16,14 @@ workflow peut aussi être lancé à la main depuis l'onglet Actions (« Run work
 | Source | Accès | Script |
 |---|---|---|
 | Best Coast Pairings | API JSON non documentée mais publique, utilisée par leur front React : `GET https://newprod-api.bestcoastpairings.com/v1/events` avec l'en-tête `client-id: web-app`. Filtre géographique via le paramètre `location` (JSON, distance en miles), pagination par `nextKey`. | `scrape_bcp.py` |
-| MiniHeadQuarters | Pas d'API. Pages Django rendues côté serveur : liste `/tournaments/individual/?country=FR&game_system=1&page_size=48&page=N`, puis chaque page de détail pour les coordonnées (marqueur Leaflet embarqué), l'adresse, le statut et le nombre de rondes. Les pages de détail sont mises en cache dans `cache/mhq/`. | `scrape_mhq.py` |
+| MiniHeadQuarters | Pas d'API. Pages Django rendues côté serveur : trois listes de même structure, `/tournaments/individual/` (1v1), `/tournaments/team/` (équipes) et `/tournaments/side-by-side/` (2v2), avec `?country=FR&game_system=1&page_size=48&page=N`, puis chaque page de détail pour les coordonnées (marqueur Leaflet embarqué), l'adresse, le statut, le nombre de rondes et la taille des équipes. Les pages de détail sont mises en cache dans `cache/mhq/<type>/`. | `scrape_mhq.py` |
+
+Formats : chaque tournoi porte un champ `format` valant `solo`, `team` ou `2v2`.
+Côté MiniHeadQuarters il découle de la liste d'origine. Côté Best Coast Pairings
+la liste ne donne que `teamEvent` ; pour les tournois par équipes le script
+interroge en plus `/v1/events/{id}` qui expose `doublesEvent` (2v2). Pour les
+tournois par équipes, les inscriptions MiniHeadQuarters sont comptées en équipes
+(`teams` / `teamsCapacity`) et converties en joueurs via la taille d'équipe.
 
 `build.py` fusionne les deux jeux de données, déduit département et région du code
 postal, repère les tournois présents sur les deux sites (même jour, moins de 10 km,
@@ -37,6 +44,7 @@ Options utiles :
 python3 scrape_bcp.py --start 2024-01-01 --end 2027-12-31   # fenêtre de dates BCP
 python3 scrape_mhq.py --refresh                              # re-télécharge tous les détails
 python3 scrape_mhq.py --game 2                               # autre jeu (2 = Age of Sigmar…)
+python3 scrape_mhq.py --types individual,side-by-side        # sous-ensemble des listes
 ```
 
 ## Site
@@ -44,9 +52,11 @@ python3 scrape_mhq.py --game 2                               # autre jeu (2 = Ag
 - Carte Leaflet (tuiles OpenStreetMap) avec regroupement des marqueurs ; couleur
   par source, marqueurs gris pour les tournois passés.
 - Liste « À venir » / « Passés », clic sur une ligne pour centrer la carte.
-- Filtres : recherche texte, période, dates, région, source, format, nombre de
-  joueurs minimum, tri par date ou par distance (géolocalisation ou Maj + clic
-  sur la carte). Les filtres sont encodés dans l'URL (`#…`) pour être partagés.
+- Filtres : recherche texte, période, dates, région, source, format (1v1, 2v2,
+  équipes), nombre de joueurs minimum, tri par date ou par distance
+  (géolocalisation ou Maj + clic sur la carte). Les filtres sont encodés dans
+  l'URL (`#…`) pour être partagés.
+- Forme des marqueurs selon le format : rond (1v1), losange (2v2), carré (équipes).
 
 ## Fichiers
 

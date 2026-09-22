@@ -7,7 +7,7 @@ Geographic filtering is done with a `location` JSON parameter (distance in miles
 pagination with `nextKey`. We query a radius around metropolitan France plus the
 overseas territories, then keep only events whose country/address is France.
 """
-import argparse, json, os, sys, time, datetime as dt, urllib.parse, urllib.request
+import argparse, json, os, re, sys, time, datetime as dt, urllib.parse, urllib.request
 
 API = "https://newprod-api.bestcoastpairings.com/v1/events"
 GAME_40K = "WGMSzfKFYA"
@@ -77,8 +77,25 @@ def fetch_region(label, lat, lon, radius_km, start, end, game):
     return out
 
 
+def fetch_detail(event_id):
+    """The list API only says teamEvent; the per-event record adds doublesEvent (2v2)."""
+    url = f"{API}/{event_id}"
+    req = urllib.request.Request(url, headers={"client-id": "web-app", "Accept": "application/json", "User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.load(r)
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! detail {event_id}: {e}", file=sys.stderr)
+        return {}
+
+
 def normalize(ev):
     coord = ev.get("coordinate") or [None, None]
+    team = bool(ev.get("teamEvent"))
+    doubles = bool(ev.get("doublesEvent"))
+    name_says_2v2 = bool(re.search(r"\b2\s*v\s*2\b|double|duo|bin[oô]me", ev.get("name") or "", re.I))
+    fmt = "2v2" if team and (doubles or name_says_2v2) else "team" if team else "solo"
+    size_in_name = re.search(r"\b(\d)\s*v\s*\1\b", ev.get("name") or "")
     return {
         "source": "bcp",
         "id": f"bcp:{ev['id']}",
@@ -87,6 +104,8 @@ def normalize(ev):
         "game": ev.get("gameSystemName") or "Warhammer 40,000",
         "date": (ev.get("eventDate") or "")[:10],
         "endDate": (ev.get("eventEndDate") or "")[:10],
+        "format": fmt,
+        "teamSize": 2 if fmt == "2v2" else (int(size_in_name.group(1)) if size_in_name else None),
         "venue": ev.get("locationName"),
         "address": ev.get("formatted_address"),
         "city": ev.get("city"),
@@ -125,7 +144,12 @@ def main():
             if ev["id"] not in by_id:
                 by_id[ev["id"]] = ev
                 raw.append(ev)
-    fr = [normalize(e) for e in raw if is_france(e)]
+    fr_raw = [e for e in raw if is_france(e)]
+    for e in fr_raw:
+        if e.get("teamEvent"):
+            e["doublesEvent"] = bool(fetch_detail(e["id"]).get("doublesEvent"))
+            time.sleep(0.2)
+    fr = [normalize(e) for e in fr_raw]
     if os.path.exists(a.out):
         with open(a.out, encoding="utf-8") as f:
             previous = json.load(f).get("events", [])

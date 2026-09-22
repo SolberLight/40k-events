@@ -94,14 +94,16 @@ def main():
             for m in ms:
                 if m["id"] in drop:
                     continue
+                if b.get("format", "solo") != m.get("format", "solo"):
+                    continue
                 if haversine(b, m) <= 10 and similar(b["name"], m["name"]):
                     b["urls"]["mhq"] = m["url"]
                     b["source"] = "both"
                     b["altName"] = m["name"]
-                    for k in ("rounds", "organizer", "city", "zip", "dept", "region", "description"):
+                    for k in ("rounds", "organizer", "city", "zip", "dept", "region", "description", "teamSize"):
                         if not b.get(k) and m.get(k):
                             b[k] = m[k]
-                    b["mhq"] = {"players": m.get("players"), "capacity": m.get("capacity"), "interested": m.get("interested"), "status": m.get("status")}
+                    b["mhq"] = {"players": m.get("players"), "capacity": m.get("capacity"), "teams": m.get("teams"), "interested": m.get("interested"), "status": m.get("status")}
                     drop.add(m["id"])
                     merged += 1
                     break
@@ -114,7 +116,10 @@ def main():
         "past": sum(1 for e in events if (e["date"] or "") < today),
         "noCoords": sum(1 for e in events if e.get("lat") is None), "merged": merged,
         "bcp": sum(1 for e in events if "bcp" in e["urls"]), "mhq": sum(1 for e in events if "mhq" in e["urls"]),
+        "formats": {f: sum(1 for e in events if e.get("format", "solo") == f) for f in ("solo", "team", "2v2")},
     }
+    for e in events:
+        e.setdefault("format", "solo")
     payload = {
         "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "sources": {"bcp": bcp.get("fetchedAt"), "mhq": mhq.get("fetchedAt")},
