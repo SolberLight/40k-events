@@ -1,7 +1,7 @@
 {
- "fetchedAt": "2026-09-22T11:55:43.954263+00:00",
- "start": "2025-09-22",
- "end": "2028-03-23",
+ "fetchedAt": "2026-09-28T10:41:54.747248+00:00",
+ "start": "2025-09-28",
+ "end": "2028-03-29",
  "events": [
   {
    "source": "bcp",
@@ -1491,8 +1491,8 @@
    "capacity": 0,
    "rounds": 5,
    "teamEvent": false,
-   "started": false,
-   "ended": false,
+   "started": true,
+   "ended": true,
    "price": 0,
    "currency": "usd",
    "leagues": [
@@ -1502,7 +1502,7 @@
    "organizer": "Clément Riu",
    "photo": null,
    "description": "Le Grand Pitounerie Tournament 2 - Open de Loire Atlantique est un tournoi 40k au format Chapter Approved 2025-2026 - 2000pts en solo les 26 et 27 septembre 2026 à Bouvron (44), organisé par Les Dés’Luminatis.\n\nLa validation de l'inscription est faite une fois le paiement reçu.\n\nInformations générales\n\nLien du paiement : https://www.helloasso.com/associations/les-des-luminatis/evenements/grand-pitounerie-tournament-2-open-40k-de-loire-atlantique\n\nDate : Samedi 26 et Dimanche 27 septembre 2026\n\nLieu : Horizinc, 2 le Genigan, 44130 Bouvron\n\nNombre de places : 80 joueurs\n\nPàF : 60€ La PAF compren",
-   "updatedAt": "2026-09-22T08:43:51.489Z"
+   "updatedAt": "2026-09-27T14:37:20.666Z"
   },
   {
    "source": "bcp",
@@ -1522,7 +1522,7 @@
    "country": "France",
    "lat": 48.4126268,
    "lon": -4.4981876,
-   "players": 49,
+   "players": 56,
    "capacity": 80,
    "rounds": 5,
    "teamEvent": false,
@@ -1537,7 +1537,7 @@
    "organizer": "Les Poetes",
    "photo": null,
    "description": "L'association Les Poètes est heureuse de vous accueillir pour cette nouvelle édition du FINISTER'HAMMER, qui sera également l'occasion idéale de tenter de décrocher un Golden Ticket !\n\nEt puis surtout... c'est une excellente excuse pour venir visiter Brest, régulièrement classée parmi les plus belles villes de France par un panel d'experts totalement indépendant composé exclusivement d'organisateurs brestois.\n\nAu programme :\n\nDe magnifiques tables GW\n\nLes toutes nouvelles règles V11.\n\nUne ambiance détendue où l'on vient autant pour lancer des dés que pour raconter des bêtises.\n\nUn excellent tr",
-   "updatedAt": "2026-09-22T08:02:14.709Z"
+   "updatedAt": "2026-09-28T05:51:52.968Z"
   },
   {
    "source": "bcp",
@@ -1557,7 +1557,7 @@
    "country": "France",
    "lat": 48.7164254,
    "lon": 2.5889284,
-   "players": 79,
+   "players": 82,
    "capacity": 0,
    "rounds": 5,
    "teamEvent": false,
@@ -1572,7 +1572,7 @@
    "organizer": "Clément Riu",
    "photo": null,
    "description": "L’Open Les Dés Salés est un tournoi de Warhammer 40K qui s’inscrit dans le circuit\n\nsolo organisé par la FEQ dans le cadre du World Championship of Warhammer de\n\nGames Workshop. L’évènement est organisé par la FEQ et l’association Les Dés Salés Wargame au format Event Companion V11 , Force de Frappe - 2000pts en solo les 3 et4 octobre 2026 à Servon 77170 Seine-et-Marne.\n\nLa validation de l'inscription est faite une fois le paiement reçu. Plus d'info dans le règlement.\n\nLien du Règlement : https://docs.google.com/document/d/1hNZCQzadrvQ7WVVRSvp1oMp_U2oyD4Ol4rH5TL235pI/edit?tab=t.0\n\nDate : 3 et ",
-   "updatedAt": "2026-09-17T19:44:21.407Z"
+   "updatedAt": "2026-09-28T06:05:32.699Z"
   },
   {
    "source": "bcp",
@@ -1605,9 +1605,9 @@
     "Warhammer Global Rankings Hobby Track 2026"
    ],
    "organizer": "Mathieu Bach",
-   "photo": null,
-   "description": "lien pour le paiement : \nhttps://www.billetweb.fr/path-to-glory-1-paris",
-   "updatedAt": "2026-09-21T14:32:09.420Z"
+   "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-26/cpsLRxMd1F4i.png",
+   "description": "lien pour le paiement : \n\nhttps://www.billetweb.fr/path-to-glory-1-paris",
+   "updatedAt": "2026-09-26T16:10:44.420Z"
   },
   {
    "source": "bcp",
@@ -1627,7 +1627,7 @@
    "country": "France",
    "lat": 48.8988804,
    "lon": 2.390242,
-   "players": 0,
+   "players": 221,
    "capacity": 0,
    "rounds": 8,
    "teamEvent": false,
@@ -1642,7 +1642,7 @@
    "organizer": "Clément Riu",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-04/rMrz0r7DylP7.png",
    "description": "(Français en dessous)\n\nWarhammer 40K Open at Paris Wargame Expo 2 solo 2000pts.\n\nDates: 17th and 18th, October 2026 and Monday 19th, October 2026 for the Top 8.\n\nLocation: Paris Event Center : 20 Av. de la Prte de la Villette, 75019 Paris\n\nRegistration: https://feq40k.assoconnect.com/collect/description/723473-l-inscription-paris-wargame-expo-2  \n\nEvent Discord: https://discord.gg/z9rqZMpecN \n\nNumber of spots: 512 Players\n\nPrice: 95€ per player (including 2 breakfasts, 2 lunches, trophies and swag bag)\n\n5 games for everyone, up to 9 for top players.\n\nThis event is a part of the Ligue Solo of F",
-   "updatedAt": "2026-09-04T20:50:35.602Z"
+   "updatedAt": "2026-09-27T21:20:16.528Z"
   },
   {
    "source": "bcp",
@@ -1654,14 +1654,14 @@
    "endDate": "2026-10-18",
    "format": "team",
    "teamSize": 5,
-   "venue": "Rue de Dunkerque, 75010, Paris 75010, France",
-   "address": "Rue de Dunkerque, 75010, Paris 75010, France",
+   "venue": "Paris Event Center",
+   "address": "20 Av. de la Prte de la Villette, 75019 Paris 75019, France",
    "city": "Paris",
    "region": "IDF",
-   "zip": "75010",
+   "zip": "75019",
    "country": "France",
-   "lat": 48.8801447,
-   "lon": 2.354074,
+   "lat": 48.8988804,
+   "lon": 2.390242,
    "players": 0,
    "capacity": 0,
    "rounds": 5,
@@ -1677,7 +1677,7 @@
    "organizer": "Clément Riu",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-04/yJNpAE9Frz9K.png",
    "description": "Warhammer 40K Team Open at Paris Wargame Expo 2 - 5 players team 2000pts.\n\nDates: 17th and 18th, October 2026.\n\nLocation: Paris Event Center : 20 Av. de la Prte de la Villette, 75019 Paris\n\nRegistration: https://feq40k.assoconnect.com/collect/description/723473-l-inscription-paris-wargame-expo-2  \n\nEvent Discord: https://discord.gg/z9rqZMpecN \n\nNumber of spots: 40 5-Player teams\n\nPrice: 500€ per 5-player teams (including 2 breakfasts, 2 lunches, trophies and swag bag),\n\n50€ per coach (includes same elements as players)\n\n5 Games per team\n\nPublic transportation:\n\nLine 7 of the metro, Porte de la",
-   "updatedAt": "2026-09-04T20:50:36.931Z"
+   "updatedAt": "2026-09-27T17:49:54.541Z"
   },
   {
    "source": "bcp",
@@ -1697,7 +1697,7 @@
    "country": "France",
    "lat": 45.1894792,
    "lon": 5.722658,
-   "players": 9,
+   "players": 10,
    "capacity": 16,
    "rounds": 4,
    "teamEvent": false,
@@ -1711,7 +1711,7 @@
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-02/W7HYnFZevKDp.png",
    "description": "Date de l'évènement : 24-25.10.2026\n\nDate de prise en compte des sorties : 10.010.2026 à 23:59\n\nDate de rendu des listes : 17.10.2026 à 23:59 Deadline de correction : 20.10.2026 à 23:59\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-09-20T18:59:22.619Z"
+   "updatedAt": "2026-09-28T06:56:25.897Z"
   },
   {
    "source": "bcp",
@@ -1731,7 +1731,7 @@
    "country": "France",
    "lat": 45.5891039,
    "lon": 5.2777363,
-   "players": 13,
+   "players": 15,
    "capacity": 16,
    "rounds": 4,
    "teamEvent": false,
@@ -1746,7 +1746,7 @@
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-20/5X4jbV9AcBVF.png",
    "description": "Date de prise en compte des sorties : 10.10.2026 à 23:59\n\nDate de rendu des listes : 24.10.2026 à 23:59\n Deadline de correction : 28.10.2026 à 23:59\n\nToutes les informations et l'event pack sur:\n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-09-22T06:20:50.689Z"
+   "updatedAt": "2026-09-24T05:59:48.815Z"
   },
   {
    "source": "bcp",
