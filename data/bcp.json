@@ -1,7 +1,7 @@
 {
- "fetchedAt": "2026-09-28T10:41:54.747248+00:00",
- "start": "2025-09-28",
- "end": "2028-03-29",
+ "fetchedAt": "2026-10-05T11:16:43.850786+00:00",
+ "start": "2025-10-05",
+ "end": "2028-04-05",
  "events": [
   {
    "source": "bcp",
@@ -1365,7 +1365,7 @@
    "organizer": "Mathieu Bach",
    "photo": null,
    "description": "* Informations générales et Inscriptions\n\nLieu : French Wargame Café 29 rue Louis Blanc, 75010, Paris.\n\nPaF : 58€ Inclus les petits déjeuner (café à volonté le matin), les repas du midi (repas), 2 boissons (demi de bière possible, à consommer avec modération), la quote part WCW\n\nSi vous avez des régimes alimentaires spéciaux contactez l'organisation au préalable.\n\nNombre de parties : 5 parties.\n\nDurée des parties : 3h00 + 20 min de présentation des listes et installation des tables.\n\nAucun temps additionnel ne pourra être donné.\n\nPeinture et WYSIWYG : Les figurines doivent être entièrement pei",
-   "updatedAt": "2026-09-13T19:19:04.398Z"
+   "updatedAt": "2026-09-29T21:19:48.742Z"
   },
   {
    "source": "bcp",
@@ -1526,8 +1526,8 @@
    "capacity": 80,
    "rounds": 5,
    "teamEvent": false,
-   "started": false,
-   "ended": false,
+   "started": true,
+   "ended": true,
    "price": 0,
    "currency": "usd",
    "leagues": [
@@ -1537,7 +1537,7 @@
    "organizer": "Les Poetes",
    "photo": null,
    "description": "L'association Les Poètes est heureuse de vous accueillir pour cette nouvelle édition du FINISTER'HAMMER, qui sera également l'occasion idéale de tenter de décrocher un Golden Ticket !\n\nEt puis surtout... c'est une excellente excuse pour venir visiter Brest, régulièrement classée parmi les plus belles villes de France par un panel d'experts totalement indépendant composé exclusivement d'organisateurs brestois.\n\nAu programme :\n\nDe magnifiques tables GW\n\nLes toutes nouvelles règles V11.\n\nUne ambiance détendue où l'on vient autant pour lancer des dés que pour raconter des bêtises.\n\nUn excellent tr",
-   "updatedAt": "2026-09-28T05:51:52.968Z"
+   "updatedAt": "2026-10-04T15:07:59.054Z"
   },
   {
    "source": "bcp",
@@ -1557,12 +1557,12 @@
    "country": "France",
    "lat": 48.7164254,
    "lon": 2.5889284,
-   "players": 82,
+   "players": 83,
    "capacity": 0,
    "rounds": 5,
    "teamEvent": false,
-   "started": false,
-   "ended": false,
+   "started": true,
+   "ended": true,
    "price": 0,
    "currency": "usd",
    "leagues": [
@@ -1572,7 +1572,39 @@
    "organizer": "Clément Riu",
    "photo": null,
    "description": "L’Open Les Dés Salés est un tournoi de Warhammer 40K qui s’inscrit dans le circuit\n\nsolo organisé par la FEQ dans le cadre du World Championship of Warhammer de\n\nGames Workshop. L’évènement est organisé par la FEQ et l’association Les Dés Salés Wargame au format Event Companion V11 , Force de Frappe - 2000pts en solo les 3 et4 octobre 2026 à Servon 77170 Seine-et-Marne.\n\nLa validation de l'inscription est faite une fois le paiement reçu. Plus d'info dans le règlement.\n\nLien du Règlement : https://docs.google.com/document/d/1hNZCQzadrvQ7WVVRSvp1oMp_U2oyD4Ol4rH5TL235pI/edit?tab=t.0\n\nDate : 3 et ",
-   "updatedAt": "2026-09-28T06:05:32.699Z"
+   "updatedAt": "2026-10-04T17:35:13.296Z"
+  },
+  {
+   "source": "bcp",
+   "id": "bcp:KLoCPzTrMi9y",
+   "name": "Training Day",
+   "url": "https://www.bestcoastpairings.com/event/KLoCPzTrMi9y",
+   "game": "Warhammer 40,000",
+   "date": "2026-10-03",
+   "endDate": "2026-10-03",
+   "format": "solo",
+   "teamSize": null,
+   "venue": "Eric Piscines",
+   "address": "20 Lot. les Genêts, 83700 Saint-Raphaël, France",
+   "city": "Saint-Raphaël",
+   "region": "Provence-Alpes-Côte d'Azur",
+   "zip": "83700",
+   "country": "France",
+   "lat": 43.43015856131906,
+   "lon": 6.788089915924691,
+   "players": 8,
+   "capacity": 0,
+   "rounds": 4,
+   "teamEvent": false,
+   "started": true,
+   "ended": true,
+   "price": 0,
+   "currency": "usd",
+   "leagues": [],
+   "organizer": "Nicolas Haffner",
+   "photo": null,
+   "description": "Entrainement L3",
+   "updatedAt": "2026-10-03T18:50:49.951Z"
   },
   {
    "source": "bcp",
@@ -1611,6 +1643,38 @@
   },
   {
    "source": "bcp",
+   "id": "bcp:ZkGNBgXbhAlb",
+   "name": "Warp Warriors October 2026",
+   "url": "https://www.bestcoastpairings.com/event/ZkGNBgXbhAlb",
+   "game": "Warhammer 40,000",
+   "date": "2026-10-07",
+   "endDate": "2026-10-30",
+   "format": "solo",
+   "teamSize": null,
+   "venue": "Louvre",
+   "address": "Rue de Rivoli, 75001 Paris 75001, France",
+   "city": "Paris",
+   "region": "IDF",
+   "zip": "75001",
+   "country": "France",
+   "lat": 48.8625383,
+   "lon": 2.335954,
+   "players": 16,
+   "capacity": 48,
+   "rounds": 3,
+   "teamEvent": false,
+   "started": false,
+   "ended": false,
+   "price": 0,
+   "currency": "usd",
+   "leagues": [],
+   "organizer": "Mike Pestilens",
+   "photo": null,
+   "description": "It's time for WARP WARRIORS, your chance for friendly + competitive practice games of 40K!\n\nThe event will be 3 rounds of tournament style 40K, starting Wednesday October 7th. Each round will last 1 week and be played over TTS. \n\nA few quick notes: \n\n* Get the @WarpWarrior tag in the Warphammer discord so you can receive any notifications about the event\n\n* Your list must have your Discord handle at the top. If you don't have your Discord handle in your list you may be kicked out. Please make it easy for your opponents to contact you\n\n* OPTIONAL: You can put your choice of NA (North America) o",
+   "updatedAt": "2026-10-05T07:38:03.960Z"
+  },
+  {
+   "source": "bcp",
    "id": "bcp:b7sBiorpZjlj",
    "name": "Paris Wargame Expo 2 - Solo 40K",
    "url": "https://www.bestcoastpairings.com/event/b7sBiorpZjlj",
@@ -1627,7 +1691,7 @@
    "country": "France",
    "lat": 48.8988804,
    "lon": 2.390242,
-   "players": 221,
+   "players": 226,
    "capacity": 0,
    "rounds": 8,
    "teamEvent": false,
@@ -1642,7 +1706,7 @@
    "organizer": "Clément Riu",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-04/rMrz0r7DylP7.png",
    "description": "(Français en dessous)\n\nWarhammer 40K Open at Paris Wargame Expo 2 solo 2000pts.\n\nDates: 17th and 18th, October 2026 and Monday 19th, October 2026 for the Top 8.\n\nLocation: Paris Event Center : 20 Av. de la Prte de la Villette, 75019 Paris\n\nRegistration: https://feq40k.assoconnect.com/collect/description/723473-l-inscription-paris-wargame-expo-2  \n\nEvent Discord: https://discord.gg/z9rqZMpecN \n\nNumber of spots: 512 Players\n\nPrice: 95€ per player (including 2 breakfasts, 2 lunches, trophies and swag bag)\n\n5 games for everyone, up to 9 for top players.\n\nThis event is a part of the Ligue Solo of F",
-   "updatedAt": "2026-09-27T21:20:16.528Z"
+   "updatedAt": "2026-10-04T07:12:15.061Z"
   },
   {
    "source": "bcp",
@@ -1662,7 +1726,7 @@
    "country": "France",
    "lat": 48.8988804,
    "lon": 2.390242,
-   "players": 0,
+   "players": 65,
    "capacity": 0,
    "rounds": 5,
    "teamEvent": true,
@@ -1677,7 +1741,7 @@
    "organizer": "Clément Riu",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-04/yJNpAE9Frz9K.png",
    "description": "Warhammer 40K Team Open at Paris Wargame Expo 2 - 5 players team 2000pts.\n\nDates: 17th and 18th, October 2026.\n\nLocation: Paris Event Center : 20 Av. de la Prte de la Villette, 75019 Paris\n\nRegistration: https://feq40k.assoconnect.com/collect/description/723473-l-inscription-paris-wargame-expo-2  \n\nEvent Discord: https://discord.gg/z9rqZMpecN \n\nNumber of spots: 40 5-Player teams\n\nPrice: 500€ per 5-player teams (including 2 breakfasts, 2 lunches, trophies and swag bag),\n\n50€ per coach (includes same elements as players)\n\n5 Games per team\n\nPublic transportation:\n\nLine 7 of the metro, Porte de la",
-   "updatedAt": "2026-09-27T17:49:54.541Z"
+   "updatedAt": "2026-10-04T21:44:31.500Z"
   },
   {
    "source": "bcp",
@@ -1697,7 +1761,7 @@
    "country": "France",
    "lat": 45.1894792,
    "lon": 5.722658,
-   "players": 10,
+   "players": 13,
    "capacity": 16,
    "rounds": 4,
    "teamEvent": false,
@@ -1711,7 +1775,7 @@
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-02/W7HYnFZevKDp.png",
    "description": "Date de l'évènement : 24-25.10.2026\n\nDate de prise en compte des sorties : 10.010.2026 à 23:59\n\nDate de rendu des listes : 17.10.2026 à 23:59 Deadline de correction : 20.10.2026 à 23:59\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-09-28T06:56:25.897Z"
+   "updatedAt": "2026-10-04T19:56:16.935Z"
   },
   {
    "source": "bcp",
@@ -1731,7 +1795,7 @@
    "country": "France",
    "lat": 45.5891039,
    "lon": 5.2777363,
-   "players": 15,
+   "players": 16,
    "capacity": 16,
    "rounds": 4,
    "teamEvent": false,
@@ -1746,7 +1810,7 @@
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-20/5X4jbV9AcBVF.png",
    "description": "Date de prise en compte des sorties : 10.10.2026 à 23:59\n\nDate de rendu des listes : 24.10.2026 à 23:59\n Deadline de correction : 28.10.2026 à 23:59\n\nToutes les informations et l'event pack sur:\n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-09-24T05:59:48.815Z"
+   "updatedAt": "2026-09-29T19:35:57.236Z"
   },
   {
    "source": "bcp",
@@ -1779,6 +1843,41 @@
    "photo": null,
    "description": "Tournoi 2000 pts au fight club grenoblois.",
    "updatedAt": "2026-09-09T07:13:25.472Z"
+  },
+  {
+   "source": "bcp",
+   "id": "bcp:dumYzv8WfiZI",
+   "name": "OGRE 2026, Open du Grand Est 4ème EDITION",
+   "url": "https://www.bestcoastpairings.com/event/dumYzv8WfiZI",
+   "game": "Warhammer 40,000",
+   "date": "2026-11-07",
+   "endDate": "2026-11-08",
+   "format": "solo",
+   "teamSize": null,
+   "venue": "Château des Rohan, Place du Général de Gaulle, 67700 Saverne 67700, France",
+   "address": "Château des Rohan, Place du Général de Gaulle, 67700 Saverne 67700, France",
+   "city": "Saverne",
+   "region": "Grand Est",
+   "zip": "67700",
+   "country": "France",
+   "lat": 48.7423213,
+   "lon": 7.3633377,
+   "players": 27,
+   "capacity": 100,
+   "rounds": 5,
+   "teamEvent": false,
+   "started": false,
+   "ended": false,
+   "price": 0,
+   "currency": "eur",
+   "leagues": [
+    "Warhammer Global Rankings 2026",
+    "Warhammer Global Rankings Hobby Track 2026"
+   ],
+   "organizer": "Mathieu Bach",
+   "photo": null,
+   "description": "Lien du règlement : https://drive.google.com/file/d/1WS_nmnN8VhdO2KBzSyNg41RNuYvcssKv/view?usp=sharing\n\nDates : 07 et 08 novembre\n\nAdresse : Château des Rohan, place du Général de Gaulle, 67700 SAVERNE\n\n100 joueurs \n\nScoring et ranking GW (victoire au point près, Winpath) \n\nServeur de l'event : https://discord.gg/GHrjjDr4jk",
+   "updatedAt": "2026-10-05T10:47:00.676Z"
   },
   {
    "source": "bcp",
