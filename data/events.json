@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-05T11:17:34+00:00",
+ "generatedAt": "2026-10-12T11:45:53+00:00",
  "sources": {
-  "bcp": "2026-10-05T11:16:43.850786+00:00",
-  "mhq": "2026-10-05T11:17:34.212005+00:00"
+  "bcp": "2026-10-12T11:45:17.101080+00:00",
+  "mhq": "2026-10-12T11:45:53.141835+00:00"
  },
  "regions": [
   "Auvergne-Rhône-Alpes",
@@ -21,15 +21,15 @@
   "Outre-mer"
  ],
  "stats": {
-  "total": 1243,
-  "upcoming": 133,
-  "past": 1110,
-  "noCoords": 138,
-  "merged": 8,
-  "bcp": 58,
-  "mhq": 1193,
+  "total": 1247,
+  "upcoming": 130,
+  "past": 1117,
+  "noCoords": 133,
+  "merged": 9,
+  "bcp": 59,
+  "mhq": 1197,
   "formats": {
-   "solo": 659,
+   "solo": 663,
    "team": 457,
    "2v2": 127
   }
@@ -38930,44 +38930,6 @@
   },
   {
    "source": "mhq",
-   "id": "mhq:team:league-wars-2026-2027-ligue-3-nice-aller-2027-06-30",
-   "name": "League Wars 2026-2027 - Ligue 3 - Nice - Aller",
-   "url": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-nice-aller-2027-06-30",
-   "game": "Warhammer 40000",
-   "date": "2026-08-04",
-   "endDate": null,
-   "format": "team",
-   "teamSize": 6,
-   "teamEvent": true,
-   "venue": null,
-   "address": null,
-   "city": null,
-   "region": null,
-   "zip": null,
-   "country": "France",
-   "lat": 46.603354,
-   "lon": 1.888334,
-   "players": 0,
-   "capacity": 36,
-   "teams": 0,
-   "teamsCapacity": 6,
-   "interested": 0,
-   "rounds": 5,
-   "status": "New",
-   "started": false,
-   "ended": true,
-   "badges": [
-    "FEQ"
-   ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, VenomNerva, FEQ",
-   "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Nice - Aller, soit les équipes suivantes : KASS'NWA Les Chevaliers Crétins Les Citrons du Warp Les modélistes avant tout NWA - Les Aquilons Reloaded Rétroplanning : À venir",
-   "dept": null,
-   "urls": {
-    "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-nice-aller-2027-06-30"
-   }
-  },
-  {
-   "source": "mhq",
    "id": "mhq:fwc-gt-warhammer-40000-gt-n80-solo-2000-points-2026-08-08",
    "name": "FWC GT Warhammer 40000 GT - n80 - solo 2000 points",
    "url": "https://miniheadquarters.com/tournaments/individual/details/fwc-gt-warhammer-40000-gt-n80-solo-2000-points-2026-08-08",
@@ -40231,7 +40193,8 @@
    "started": true,
    "ended": true,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "B4 2026-2027"
    ],
    "organizer": "Immortus, La-corneille-à-3-yeux, gaby, Orga_FEQ, Kestfab, Dayk, Lokenia, lumosc, FEQ",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - B4, soit les équipes suivantes : Yokai Semi-Croustillants FTA L1 Legio Invicta Rétroplanning : À venir",
@@ -40348,7 +40311,7 @@
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-07-21/rvsAK6yYcgzr.png",
    "description": "Date de l'évènement : 19-20.09.2026\n\nDate de prise en compte des sorties : 05.09.2026 à 23:59\n\nDate de rendu des listes : 12.09.2026 à 23:59 Deadline de correction : 16.09.2026 à 23:59\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-09-20T15:25:07.163Z",
+   "updatedAt": "2026-10-07T15:16:51.682Z",
    "dept": "38",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/x27cGqfv2n5v"
@@ -40674,7 +40637,8 @@
    "started": false,
    "ended": true,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Montpellier 2026-2027"
    ],
    "organizer": "Immortus, La-corneille-à-3-yeux, Final64, Orga_FEQ, FEQ",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Montpellier - Aller, soit les équipes suivantes : Bataille pour 1D6 KCDQ Legio Pendragon MFox Lovers Octopia Rétroplanning : Deadline sortie GW Samedi 5/9/2026 Deadline prise en compte des FAQ FEQ Vendredi 11/9/2026 Deadline envoi des listes et paiements Jeudi 17/9/2026 Deadline de correction des Force Disposition Vendredi 18/9/2026 Date publication des listes Samedi 19/9/2026 Date des appariements Samedi 19/9/2026 Date rendu des vérifications Jeudi 24/9/2026 Date modification des listes selon les vérifications remontées Lundi 28",
@@ -40763,45 +40727,6 @@
   },
   {
    "source": "bcp",
-   "id": "bcp:sOvssCbHt45O",
-   "name": "Path to Glory - Paris - n1",
-   "url": "https://www.bestcoastpairings.com/event/sOvssCbHt45O",
-   "game": "Warhammer 40,000",
-   "date": "2026-10-03",
-   "endDate": "2026-10-04",
-   "format": "solo",
-   "teamSize": null,
-   "venue": "French Wargame Café",
-   "address": "29 Rue Louis Blanc, Paris 75010, France",
-   "city": "Paris",
-   "region": "Île-de-France",
-   "zip": "75010",
-   "country": "France",
-   "lat": 48.8804585,
-   "lon": 2.3659071,
-   "players": 3,
-   "capacity": 18,
-   "rounds": 4,
-   "teamEvent": false,
-   "started": false,
-   "ended": false,
-   "price": 0,
-   "currency": "eur",
-   "leagues": [
-    "Warhammer Global Rankings 2026",
-    "Warhammer Global Rankings Hobby Track 2026"
-   ],
-   "organizer": "Mathieu Bach",
-   "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-26/cpsLRxMd1F4i.png",
-   "description": "lien pour le paiement : \n\nhttps://www.billetweb.fr/path-to-glory-1-paris",
-   "updatedAt": "2026-09-26T16:10:44.420Z",
-   "dept": "75",
-   "urls": {
-    "bcp": "https://www.bestcoastpairings.com/event/sOvssCbHt45O"
-   }
-  },
-  {
-   "source": "bcp",
    "id": "bcp:KLoCPzTrMi9y",
    "name": "Training Day",
    "url": "https://www.bestcoastpairings.com/event/KLoCPzTrMi9y",
@@ -40854,11 +40779,11 @@
    "country": "France",
    "lat": 48.8625383,
    "lon": 2.335954,
-   "players": 16,
+   "players": 30,
    "capacity": 48,
    "rounds": 3,
    "teamEvent": false,
-   "started": false,
+   "started": true,
    "ended": false,
    "price": 0,
    "currency": "usd",
@@ -40866,7 +40791,7 @@
    "organizer": "Mike Pestilens",
    "photo": null,
    "description": "It's time for WARP WARRIORS, your chance for friendly + competitive practice games of 40K!\n\nThe event will be 3 rounds of tournament style 40K, starting Wednesday October 7th. Each round will last 1 week and be played over TTS. \n\nA few quick notes: \n\n* Get the @WarpWarrior tag in the Warphammer discord so you can receive any notifications about the event\n\n* Your list must have your Discord handle at the top. If you don't have your Discord handle in your list you may be kicked out. Please make it easy for your opponents to contact you\n\n* OPTIONAL: You can put your choice of NA (North America) o",
-   "updatedAt": "2026-10-05T07:38:03.960Z",
+   "updatedAt": "2026-10-07T17:31:46.098Z",
    "dept": "75",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/ZkGNBgXbhAlb"
@@ -40899,7 +40824,7 @@
    "rounds": 2,
    "status": "Registrations open",
    "started": false,
-   "ended": false,
+   "ended": true,
    "badges": [],
    "organizer": "squekky",
    "description": "L'Association Grabuj organise sa première convention Apocalypse Multi-tables pour le jeu Warhammer 40.000 ! Date : samedi 10 et dimanche 11 octobre 2026 Date de rendu des listes : 25 septembre 2026 Date de prise en compte des dernières FAQs et Codex : 20 septembre 2026 Informations pratiques : 4 Rte de Blagon, 33138 Lanton maps : https://maps.app.goo.gl/4KnsiM9eWurD3z5y8 Parking sur place (mais penser covoiturage ) Prix : 120 € par équipe (1 équipe = 3 joueurs) lien du paiement : prochainement Questions et informations sur l’événement c’est ici : https://discord.gg/vCXUHbXW8R Le prix inclut la",
@@ -40935,7 +40860,7 @@
    "rounds": 4,
    "status": "Registrations open",
    "started": false,
-   "ended": false,
+   "ended": true,
    "badges": [],
    "organizer": "Mandal, Canapélit, Vaidaick, solostaran, Lhassa, BOGOS",
    "description": "Tournoi en équipe de 6, 2000 points, format WTC, en 4 rondes de 3h45 (2 rondes le samedi, 2 rondes le dimanche, temps d'appariement inclus) Deadline des sorties : le 03/10/2026 à 23h59 Deadline d'envoi des listes (au format WTC) et paiement : le 05/10/2026 à 23h59 Choix des repas au plus tard : le 05/10/2026 Chaque équipe devra corriger les listes de 2 autres équipes. Rendu des corrections : le 07/10/2026 à 23h59 au plus tard Date de publications des listes et appariements : 08/10/2026 Lieu : 38 rue de la Gare 38120 SAINT EGREVE Maison des solidarités et des familles - Salle Safran Horaires sa",
@@ -40963,15 +40888,15 @@
    "country": "France",
    "lat": 43.11283,
    "lon": 5.937707,
-   "players": 0,
+   "players": 60,
    "capacity": 100,
    "teams": null,
    "teamsCapacity": null,
    "interested": 91,
    "rounds": 5,
    "status": "Registrations closed",
-   "started": false,
-   "ended": false,
+   "started": true,
+   "ended": true,
    "badges": [],
    "organizer": "Le_vieux_monde",
    "description": "Tournoi de warhammer 40k en rondes suisses de 3h avec chrono 1v1 2000Pts Date Event : week end du 10-11 octobre 2026 Rulespack et layout GW N'oubliez pas de préciser votre force de disposition dans votre liste Date de dernière prise en compte des sorties et faq 03/10 Date de rendu des listes 03/10 Date de rendu des corrections 05/10 Date de pairing 07/10 Lien du discord : https://discord.gg/7fvqnCGznV Lots pour les 3 premiers et goodies pour les 10 premiers L'inscription est de 50€, celle-ci comprend : 1- petits déjeuners et cafés chaque matin 2- deux repas chauds le midi Paiement sur PayPal (",
@@ -40999,7 +40924,7 @@
    "country": "France",
    "lat": 47.676658,
    "lon": -2.955159,
-   "players": 0,
+   "players": 22,
    "capacity": 36,
    "teams": null,
    "teamsCapacity": null,
@@ -41007,7 +40932,7 @@
    "rounds": 5,
    "status": "Registrations open",
    "started": false,
-   "ended": false,
+   "ended": true,
    "badges": [],
    "organizer": "KeniSama, genietchampion, Maelo",
    "description": "Le Tournoi des Irreductibles D6 **Annonce du Tournoi Warhammer 40K 2026 dans la nouvelle V11** Amateurs de Warhammer 40K, préparez-vous pour l'événement de l'année ! Nous avons le plaisir de vous inviter à notre tournoi Solo qui se déroulera les **10 et 11 octobre 2026**. Ce tournoi en **format 2000 points** promet des batailles intenses, des stratégies audacieuses et des affrontements mémorables dans l'univers de Warhammer 40K. **Détails de l'événement :** - **Dates :** 10 et 11 octobre 2026 - **Format :** 2000 points - **Lieu : Salle Nicolazic Rue Yvon Nicolazic 56400 Pluneret :** - **rendu ",
@@ -41042,10 +40967,11 @@
    "interested": 5,
    "rounds": 5,
    "status": "Registrations closed",
-   "started": false,
-   "ended": false,
+   "started": true,
+   "ended": true,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Albi 2026-2027"
    ],
    "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Satch_, FEQ",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Albi - Aller, soit les équipes suivantes : Flat Pure plasm'albigeois Unicorn Hammer Power Varagyr Wargame Ruthène Rétroplanning : Deadline sortie GW : 11/09/2026 Prise en compte faq feq : 17/09/2026 Envoi des listes et paiement : 24/09/2026 Correction force de disposition : 25/09/2026 Publication des listes : 26/09/2026 Appariement : 26/09/2026 Rendu des vérifications : 01/10/2026 Correction des listes : 05/10/2026 Date de la rencontre : 10/10/2026",
@@ -41073,21 +40999,93 @@
    "country": "France",
    "lat": 48.964413,
    "lon": 4.378515,
-   "players": 5,
+   "players": 30,
    "capacity": 32,
    "teams": null,
    "teamsCapacity": null,
    "interested": 52,
    "rounds": 3,
    "status": "Registrations closed",
-   "started": false,
-   "ended": false,
+   "started": true,
+   "ended": true,
    "badges": [],
    "organizer": "Darkaverage, Saucarya, LouisXVI, Nomias",
    "description": "L'Open Marne organise son tournoi \"Open Marne Tournament 2026\" 40k au format - strike force - 2000pts en solo le 10 OCTOBRE 2026 (Méta figée au 04 octobre 23h59) +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++= 1/ Règlement : Le tournoi se jouera avec le nouveau Chapter Approved 2026/2027 et les cartes correspondantes ainsi que sur des layouts GW solo. Rappel de la timeline : (La date limite pour demander une annulation de l'inscription et un remboursement est le 27 septembre 23h59, le tout par mail à [email protected] ). - Date de remise des listes maximum (sur MHQ) : ",
    "dept": "51",
    "urls": {
     "mhq": "https://miniheadquarters.com/tournaments/individual/details/open-marne-tournament-2026-2026-10-10"
+   }
+  },
+  {
+   "source": "mhq",
+   "id": "mhq:tactical-squad-tournois-minute-2026-10-11",
+   "name": "Tactical Squad Tournois minute",
+   "url": "https://miniheadquarters.com/tournaments/individual/details/tactical-squad-tournois-minute-2026-10-11",
+   "game": "Warhammer 40000",
+   "date": "2026-10-11",
+   "endDate": null,
+   "format": "solo",
+   "teamSize": null,
+   "teamEvent": false,
+   "venue": null,
+   "address": "375 avenue saint just 83130 La Garde",
+   "city": "La Garde",
+   "region": "Provence-Alpes-Côte d'Azur",
+   "zip": "83130",
+   "country": "France",
+   "lat": 43.143157,
+   "lon": 6.018246,
+   "players": 16,
+   "capacity": 36,
+   "teams": null,
+   "teamsCapacity": null,
+   "interested": 18,
+   "rounds": 3,
+   "status": "Finished",
+   "started": true,
+   "ended": true,
+   "badges": [],
+   "organizer": "Tactical-Squad",
+   "description": "Tournoi au dernier moment 36 places disponibles 2000 points d'armée round suisse 3 parties de 3h30 paf 15€ 1 boisson offerte début 8h : viennoiserie et café offert début des game 8h30 adresse : Tactical Squad 375 avenue saint just 83130 La Garde",
+   "dept": "83",
+   "urls": {
+    "mhq": "https://miniheadquarters.com/tournaments/individual/details/tactical-squad-tournois-minute-2026-10-11"
+   }
+  },
+  {
+   "source": "mhq",
+   "id": "mhq:un-petit-tournoi-a-la-nwa-la-vengeance-des-primarques-2026-10-11",
+   "name": "Un petit tournoi à la NWA - la vengeance des Primarques",
+   "url": "https://miniheadquarters.com/tournaments/individual/details/un-petit-tournoi-a-la-nwa-la-vengeance-des-primarques-2026-10-11",
+   "game": "Warhammer 40000",
+   "date": "2026-10-11",
+   "endDate": null,
+   "format": "solo",
+   "teamSize": null,
+   "teamEvent": false,
+   "venue": null,
+   "address": "114 Avenue Henri Dunant 06100 Nice",
+   "city": "Nice",
+   "region": "Provence-Alpes-Côte d'Azur",
+   "zip": "06100",
+   "country": "France",
+   "lat": 43.728505,
+   "lon": 7.267013,
+   "players": 5,
+   "capacity": 8,
+   "teams": null,
+   "teamsCapacity": null,
+   "interested": 7,
+   "rounds": 3,
+   "status": "Finished",
+   "started": true,
+   "ended": true,
+   "badges": [],
+   "organizer": "Bardric, End_, Vaelys",
+   "description": "Bonjour, Avec l'annulation du Centurion Toulonnais ce weekend du 10-11 Octobre, nous contre-organisons un petit tournoi à la NWA. La salle dispose de 5 tables, mais nous en réservons une pour les personnes souhaitant profiter de l'association, aussi le tournoi accueillera un maximum de 8 joueurs. Merci de vous inscrire uniquement si vous voulez faire les 3 parties du dimanche. Rulepack et layouts GW, tables A, B et C. Peinture encouragée mais pas obligatoire. Clock encouragée mais pas obligatoire. FairPlay encouragé ET obligatoire. Le tournoi est gratuit. Première partie : 8h30 layout A Deuxiè",
+   "dept": "06",
+   "urls": {
+    "mhq": "https://miniheadquarters.com/tournaments/individual/details/un-petit-tournoi-a-la-nwa-la-vengeance-des-primarques-2026-10-11"
    }
   },
   {
@@ -41109,13 +41107,13 @@
    "country": "France",
    "lat": 48.815947,
    "lon": 7.704163,
-   "players": 0,
+   "players": 40,
    "capacity": 40,
    "teams": null,
    "teamsCapacity": null,
    "interested": 55,
    "rounds": 5,
-   "status": "Registrations open",
+   "status": "Registrations closed",
    "started": false,
    "ended": false,
    "badges": [
@@ -41151,7 +41149,7 @@
    "capacity": 600,
    "teams": 0,
    "teamsCapacity": 300,
-   "interested": 82,
+   "interested": 95,
    "rounds": 4,
    "status": "Registrations closed",
    "started": false,
@@ -41159,7 +41157,7 @@
    "badges": [
     "FEQ"
    ],
-   "organizer": "Immortus, Manwe, babelben, Orga_FEQ, FEQ",
+   "organizer": "Immortus, Manwe, babelben, gaby, Zeg, Orga_FEQ, Andhrim, VenomNerva, GarettOtar, Lrm, Dayk, Lokenia, lumosc, LouisXVI, Satch_, DrRaizel, gimukay, FEQ",
    "description": "Informations générales Tournoi 2V2 de Warhammer 40K Paris Wargame Expo 2 format 2x1000pts. Dates : 17 et 18 octobre 2026. Lieu : Paris Event Center : 20 Av. de la Prte de la Villette, 75019 Paris Inscription : https://feq40k.assoconnect.com/collect/description/723473-l-inscription-paris-wargame-expo-2 Discord de l'événement : https://discord.gg/z9rqZMpecN Places disponibles : 300 équipes PàF : 170€ par équipe (incluant les petit-déjeuners, les déjeuners, les lots et les goodies) Pensez à préciser vos régimes alimentaires lors de votre inscription. Nombre de parties : 4 parties pour tout le mon",
    "dept": "75",
    "urls": {
@@ -41220,7 +41218,7 @@
    "country": "France",
    "lat": 48.8988804,
    "lon": 2.390242,
-   "players": 65,
+   "players": 85,
    "capacity": 0,
    "rounds": 5,
    "teamEvent": true,
@@ -41232,10 +41230,10 @@
     "Warhammer Global Rankings 2026",
     "Warhammer Global Rankings Hobby Track 2026"
    ],
-   "organizer": "Clément Riu",
+   "organizer": "Clément - Immortus Riu",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-04/yJNpAE9Frz9K.png",
    "description": "Warhammer 40K Team Open at Paris Wargame Expo 2 - 5 players team 2000pts.\n\nDates: 17th and 18th, October 2026.\n\nLocation: Paris Event Center : 20 Av. de la Prte de la Villette, 75019 Paris\n\nRegistration: https://feq40k.assoconnect.com/collect/description/723473-l-inscription-paris-wargame-expo-2  \n\nEvent Discord: https://discord.gg/z9rqZMpecN \n\nNumber of spots: 40 5-Player teams\n\nPrice: 500€ per 5-player teams (including 2 breakfasts, 2 lunches, trophies and swag bag),\n\n50€ per coach (includes same elements as players)\n\n5 Games per team\n\nPublic transportation:\n\nLine 7 of the metro, Porte de la",
-   "updatedAt": "2026-10-04T21:44:31.500Z",
+   "updatedAt": "2026-10-11T21:53:22.912Z",
    "dept": "75",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/cEkhXBGQgPR5"
@@ -41259,7 +41257,7 @@
    "country": "France",
    "lat": 48.8988804,
    "lon": 2.390242,
-   "players": 226,
+   "players": 240,
    "capacity": 0,
    "rounds": 8,
    "teamEvent": false,
@@ -41271,10 +41269,10 @@
     "Warhammer Global Rankings 2026",
     "Warhammer Global Rankings Hobby Track 2026"
    ],
-   "organizer": "Clément Riu",
+   "organizer": "Clément - Immortus Riu",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-04/rMrz0r7DylP7.png",
    "description": "(Français en dessous)\n\nWarhammer 40K Open at Paris Wargame Expo 2 solo 2000pts.\n\nDates: 17th and 18th, October 2026 and Monday 19th, October 2026 for the Top 8.\n\nLocation: Paris Event Center : 20 Av. de la Prte de la Villette, 75019 Paris\n\nRegistration: https://feq40k.assoconnect.com/collect/description/723473-l-inscription-paris-wargame-expo-2  \n\nEvent Discord: https://discord.gg/z9rqZMpecN \n\nNumber of spots: 512 Players\n\nPrice: 95€ per player (including 2 breakfasts, 2 lunches, trophies and swag bag)\n\n5 games for everyone, up to 9 for top players.\n\nThis event is a part of the Ligue Solo of F",
-   "updatedAt": "2026-10-04T07:12:15.061Z",
+   "updatedAt": "2026-10-11T10:46:33.233Z",
    "dept": "75",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/b7sBiorpZjlj"
@@ -41299,11 +41297,11 @@
    "country": "France",
    "lat": 45.882559,
    "lon": 1.296297,
-   "players": 1,
+   "players": 47,
    "capacity": 50,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 65,
+   "interested": 68,
    "rounds": 5,
    "status": "Registrations open",
    "started": false,
@@ -41334,7 +41332,7 @@
    "country": "France",
    "lat": 45.1894792,
    "lon": 5.722658,
-   "players": 13,
+   "players": 16,
    "capacity": 16,
    "rounds": 4,
    "teamEvent": false,
@@ -41347,8 +41345,8 @@
    ],
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-02/W7HYnFZevKDp.png",
-   "description": "Date de l'évènement : 24-25.10.2026\n\nDate de prise en compte des sorties : 10.010.2026 à 23:59\n\nDate de rendu des listes : 17.10.2026 à 23:59 Deadline de correction : 20.10.2026 à 23:59\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-10-04T19:56:16.935Z",
+   "description": "Date de l'évènement : 24-25.10.2026\n\nDate de prise en compte des sorties : 10.10.2026 à 23:59\n\nDate de rendu des listes : 17.10.2026 à 23:59 Deadline de correction : 20.10.2026 à 23:59\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
+   "updatedAt": "2026-10-12T10:57:23.629Z",
    "dept": "38",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/DXxhRDRXA8bm"
@@ -41377,7 +41375,7 @@
    "capacity": 16,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 4,
+   "interested": 5,
    "rounds": 3,
    "status": "Registrations open",
    "started": false,
@@ -41413,7 +41411,7 @@
    "capacity": 32,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 36,
+   "interested": 37,
    "rounds": 3,
    "status": "Registrations open",
    "started": false,
@@ -41449,7 +41447,7 @@
    "capacity": 30,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 35,
+   "interested": 36,
    "rounds": 4,
    "status": "Registrations open",
    "started": false,
@@ -41495,7 +41493,7 @@
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-20/5X4jbV9AcBVF.png",
    "description": "Date de prise en compte des sorties : 10.10.2026 à 23:59\n\nDate de rendu des listes : 24.10.2026 à 23:59\n Deadline de correction : 28.10.2026 à 23:59\n\nToutes les informations et l'event pack sur:\n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-09-29T19:35:57.236Z",
+   "updatedAt": "2026-10-07T15:12:45.152Z",
    "dept": "38",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/Uh4De2XI30r0"
@@ -41524,7 +41522,7 @@
    "capacity": 60,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 31,
+   "interested": 35,
    "rounds": 5,
    "status": "Registrations open",
    "started": false,
@@ -41533,7 +41531,7 @@
     "IDF"
    ],
    "organizer": "Jacquito, IDF",
-   "description": "Troisième édition du Rubelles GT made in Tourney Coton ! FRAIS D'INSCRIPTION: 50€ PREINSCRIPTIONS EN COURS, OUVERTURE DES PAIEMENTS PROCHAINEMENT 1. PRESENTATION GENERALE Format: - Tournoi solo Warhammer 40k - Strike Force (2000pts) - Layout GW - 5 Rondes de 3h10 - Ronde Games Workshop (win sos) Date : 31 octobre et 1 er novembre 2026 Lieu : 135 Bd Charles de Gaulle, 77950 Rubelles Nombre de places : 50 joueurs. Frais d’inscription : 50€, comprend: - Les petits déjeuners : Viennoiseries (de boulangerie) jus, café à volonté le matin - Les repas du midi : Buffet froid le samedi, pâtes poulet cha",
+   "description": "Troisième édition du Rubelles GT made in Tourney Coton ! FRAIS D'INSCRIPTION: 50€ par paypal -> [email protected] (choisir virement \"entre proches\") 1. PRESENTATION GENERALE Format: - Tournoi solo Warhammer 40k - Strike Force (2000pts) - Layout GW - 5 Rondes de 3h10 - Ronde Games Workshop (win sos) Date : 31 octobre et 1 er novembre 2026 Lieu : 135 Bd Charles de Gaulle, 77950 Rubelles Nombre de places : 50 joueurs. Frais d’inscription : 50€, comprend: - Les petits déjeuners : Viennoiseries (de boulangerie) jus, café à volonté le matin - Les repas du midi : Buffet froid le samedi, pâtes poulet ",
    "dept": "77",
    "urls": {
     "mhq": "https://miniheadquarters.com/tournaments/individual/details/rubelles-gt-3-2026-05-23"
@@ -41581,8 +41579,8 @@
    "name": "Baston générale",
    "url": "https://www.bestcoastpairings.com/event/D5iPA0NqZipl",
    "game": "Warhammer 40,000",
-   "date": "2026-11-06",
-   "endDate": "2026-11-07",
+   "date": "2026-11-07",
+   "endDate": "2026-11-08",
    "format": "solo",
    "teamSize": null,
    "venue": "Fight club grenoblois",
@@ -41593,8 +41591,8 @@
    "country": "France",
    "lat": 45.1718056,
    "lon": 5.713231899999999,
-   "players": 0,
-   "capacity": 0,
+   "players": 7,
+   "capacity": 16,
    "rounds": 4,
    "teamEvent": false,
    "started": false,
@@ -41605,7 +41603,7 @@
    "organizer": "Alexandre Turco",
    "photo": null,
    "description": "Tournoi 2000 pts au fight club grenoblois.",
-   "updatedAt": "2026-09-09T07:13:25.472Z",
+   "updatedAt": "2026-10-12T06:21:08.368Z",
    "dept": "38",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/D5iPA0NqZipl"
@@ -41648,6 +41646,45 @@
    }
   },
   {
+   "source": "mhq",
+   "id": "mhq:team:league-wars-2026-2027-ligue-3-nice-aller-2027-06-30",
+   "name": "League Wars 2026-2027 - Ligue 3 - Nice - Aller",
+   "url": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-nice-aller-2027-06-30",
+   "game": "Warhammer 40000",
+   "date": "2026-11-07",
+   "endDate": null,
+   "format": "team",
+   "teamSize": 6,
+   "teamEvent": true,
+   "venue": null,
+   "address": "13 Avenue Simone Veil 06200 Nice",
+   "city": "Nice",
+   "region": "Provence-Alpes-Côte d'Azur",
+   "zip": "06200",
+   "country": "France",
+   "lat": 43.679056,
+   "lon": 7.20437,
+   "players": 0,
+   "capacity": 36,
+   "teams": 0,
+   "teamsCapacity": 6,
+   "interested": 1,
+   "rounds": 5,
+   "status": "Registrations open",
+   "started": false,
+   "ended": false,
+   "badges": [
+    "FEQ",
+    "Nice 2026-2027"
+   ],
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, VenomNerva, FEQ, Nice 2026-2027",
+   "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Nice - Aller, soit les équipes suivantes : KASS'NWA Les Chevaliers Crétins Les Citrons du Warp Les modélistes avant tout NWA - Les Aquilons Reloaded Rétroplanning : Deadline sortie GW Samedi 10/10/2026 Deadline prise en compte des FAQ FEQ Vendredi 15/10/2026 Deadline envoi des listes et paiements Jeudi 22/10/2026 Deadline correction Dispositions Vendredi 23/10/2026 Date publication des listes Samedi 24/10/2026 Date appariements Samedi 24/10/2026 Date rendu des vérifications Jeudi 29/10/2026 Date correction listes Lundi 2/11/2026 ",
+   "dept": "06",
+   "urls": {
+    "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-nice-aller-2027-06-30"
+   }
+  },
+  {
    "source": "bcp",
    "id": "bcp:dumYzv8WfiZI",
    "name": "OGRE 2026, Open du Grand Est 4ème EDITION",
@@ -41665,7 +41702,7 @@
    "country": "France",
    "lat": 48.7423213,
    "lon": 7.3633377,
-   "players": 27,
+   "players": 61,
    "capacity": 100,
    "rounds": 5,
    "teamEvent": false,
@@ -41680,7 +41717,7 @@
    "organizer": "Mathieu Bach",
    "photo": null,
    "description": "Lien du règlement : https://drive.google.com/file/d/1WS_nmnN8VhdO2KBzSyNg41RNuYvcssKv/view?usp=sharing\n\nDates : 07 et 08 novembre\n\nAdresse : Château des Rohan, place du Général de Gaulle, 67700 SAVERNE\n\n100 joueurs \n\nScoring et ranking GW (victoire au point près, Winpath) \n\nServeur de l'event : https://discord.gg/GHrjjDr4jk",
-   "updatedAt": "2026-10-05T10:47:00.676Z",
+   "updatedAt": "2026-10-11T18:00:00.206Z",
    "dept": "67",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/dumYzv8WfiZI"
@@ -41745,7 +41782,7 @@
    "capacity": 30,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 27,
+   "interested": 30,
    "rounds": 5,
    "status": "Registrations open",
    "started": false,
@@ -41756,6 +41793,168 @@
    "dept": "91",
    "urls": {
     "mhq": "https://miniheadquarters.com/tournaments/individual/details/evry-figz-2026-2026-11-14"
+   }
+  },
+  {
+   "source": "mhq",
+   "id": "mhq:team:league-wars-2026-2027-ligue-3-bouches-du-rhone-aller-2027-06-30",
+   "name": "League Wars 2026-2027 - Ligue 3 - Bouches-du-Rhône - Aller",
+   "url": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-bouches-du-rhone-aller-2027-06-30",
+   "game": "Warhammer 40000",
+   "date": "2026-11-14",
+   "endDate": null,
+   "format": "team",
+   "teamSize": 6,
+   "teamEvent": true,
+   "venue": null,
+   "address": "950 Av. Léonard de Vinci 13290 Aix-en-provence",
+   "city": "Aix-en-provence",
+   "region": "Provence-Alpes-Côte d'Azur",
+   "zip": "13290",
+   "country": "France",
+   "lat": 43.485989,
+   "lon": 5.344341,
+   "players": 0,
+   "capacity": 36,
+   "teams": 0,
+   "teamsCapacity": 6,
+   "interested": 1,
+   "rounds": 5,
+   "status": "Registrations open",
+   "started": false,
+   "ended": false,
+   "badges": [
+    "FEQ",
+    "Bouches-du-Rhône 2026-2027"
+   ],
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, nainfa, Uzulth, FEQ, Bouches-du-Rhône 2026-2027",
+   "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Bouches-du-Rhône - Aller, soit les équipes suivantes : Dés salés - Gard Drunk'in Gretchin'Z Legio Arausio Legio Mistralis L3 Manouche Origine Provence Warp Game Rétroplanning : Deadline sortie GW Samedi 17/10/2026 Deadline prise en compte des FAQ FEQ Vendredi 23/10/2026 Deadline envoi des listes et paiements Jeudi 29/10/2026 Deadline correction Dispositions Vendredi 30/10/2026 Date publication des listes Samedi 31/10/2026 Date appariements Samedi 31/10/2026 Date rendu des vérifications Jeudi 5/11/2026 Date correction listes Lundi",
+   "dept": "13",
+   "urls": {
+    "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-bouches-du-rhone-aller-2027-06-30"
+   }
+  },
+  {
+   "source": "mhq",
+   "id": "mhq:team:league-wars-2026-2027-ligue-3-calanques-aller-2027-06-30",
+   "name": "League Wars 2026-2027 - Ligue 3 - Calanques - Aller",
+   "url": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-calanques-aller-2027-06-30",
+   "game": "Warhammer 40000",
+   "date": "2026-11-14",
+   "endDate": null,
+   "format": "team",
+   "teamSize": 6,
+   "teamEvent": true,
+   "venue": null,
+   "address": "950 Av. Léonard de Vinci 13290 Aix-en-provence",
+   "city": "Aix-en-provence",
+   "region": "Provence-Alpes-Côte d'Azur",
+   "zip": "13290",
+   "country": "France",
+   "lat": 43.485989,
+   "lon": 5.344341,
+   "players": 0,
+   "capacity": 36,
+   "teams": 0,
+   "teamsCapacity": 6,
+   "interested": 3,
+   "rounds": 5,
+   "status": "Registrations open",
+   "started": false,
+   "ended": false,
+   "badges": [
+    "FEQ",
+    "Calanques 2026-2027"
+   ],
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, nainfa, Uzulth, FEQ, Calanques 2026-2027",
+   "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Calanques - Aller, soit les équipes suivantes : Anvil Dragoon Bada Bing! Bières & Pistaches OG Les NOBZ de la Rade Les TourTons Flingueurs Manouchie - Hérisson Rétroplanning : Deadline sortie GW Samedi 17/10/2026 Deadline prise en compte des FAQ FEQ Vendredi 23/10/2026 Deadline envoi des listes et paiements Jeudi 29/10/2026 Deadline correction Dispositions Vendredi 30/10/2026 Date publication des listes Samedi 31/10/2026 Date appariements Samedi 31/10/2026 Date rendu des vérifications Jeudi 5/11/2026 Date correction listes Lundi ",
+   "dept": "13",
+   "urls": {
+    "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-calanques-aller-2027-06-30"
+   }
+  },
+  {
+   "source": "mhq",
+   "id": "mhq:path-to-glory-fwc-paris-part-1-2026-11-07",
+   "name": "PATH TO GLORY - FWC - PARIS - PART 1",
+   "url": "https://miniheadquarters.com/tournaments/individual/details/path-to-glory-fwc-paris-part-1-2026-11-07",
+   "game": "Warhammer 40000",
+   "date": "2026-11-14",
+   "endDate": null,
+   "format": "solo",
+   "teamSize": null,
+   "teamEvent": false,
+   "venue": null,
+   "address": "29 louis blanc 75010 Paris",
+   "city": "Paris",
+   "region": "Île-de-France",
+   "zip": "75010",
+   "country": "France",
+   "lat": 48.880534,
+   "lon": 2.365933,
+   "players": 0,
+   "capacity": 16,
+   "teams": null,
+   "teamsCapacity": null,
+   "interested": 0,
+   "rounds": 4,
+   "status": "New",
+   "started": false,
+   "ended": false,
+   "badges": [],
+   "organizer": "Manwe, Bam, JbL",
+   "description": "DATE - 14-15 novembre 2026 FORMAT - Strike Force - 2000 points NOMBRE DE RONDES - 4 (2 le samedi et 2 le dimanche) DURÉE DES RONDES - 4 heures LAYOUT - GW Event Companion SCORING - GW UNITÉS LÉGENDE - Non autorisées FORGE WORLD - Autorisé PROXY - Validation obligatoire Plus d'information sur https://pathtoglory.fr/",
+   "dept": "75",
+   "urls": {
+    "mhq": "https://miniheadquarters.com/tournaments/individual/details/path-to-glory-fwc-paris-part-1-2026-11-07"
+   }
+  },
+  {
+   "source": "both",
+   "id": "bcp:sOvssCbHt45O",
+   "name": "PTG - PARIS - PART 1",
+   "url": "https://www.bestcoastpairings.com/event/sOvssCbHt45O",
+   "game": "Warhammer 40,000",
+   "date": "2026-11-14",
+   "endDate": "2026-11-15",
+   "format": "solo",
+   "teamSize": null,
+   "venue": "French Wargame Café",
+   "address": "29 Rue Louis Blanc, Paris 75010, France",
+   "city": "Paris",
+   "region": "Île-de-France",
+   "zip": "75010",
+   "country": "France",
+   "lat": 48.8804585,
+   "lon": 2.3659071,
+   "players": 4,
+   "capacity": 16,
+   "rounds": 4,
+   "teamEvent": false,
+   "started": false,
+   "ended": false,
+   "price": 0,
+   "currency": "eur",
+   "leagues": [
+    "Warhammer Global Rankings 2026",
+    "Warhammer Global Rankings Hobby Track 2026"
+   ],
+   "organizer": "Mathieu Bach",
+   "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-26/cpsLRxMd1F4i.png",
+   "description": "Date de l'évènement : 14-15.11.2026\nDate de prise en compte des sorties : 31.10.2026 à 23:59\nDate de rendu des listes : 7.11.2026 à 23:59 \nDeadline de correction : 10.11.2026 à 23:59\nlien pour le paiement : \n\nhttps://www.billetweb.fr/path-to-glory-1-paris\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
+   "updatedAt": "2026-10-12T07:14:25.962Z",
+   "dept": "75",
+   "urls": {
+    "bcp": "https://www.bestcoastpairings.com/event/sOvssCbHt45O",
+    "mhq": "https://miniheadquarters.com/tournaments/individual/details/ptg-paris-part-1-2026-11-14"
+   },
+   "altName": "PTG - PARIS - PART 1",
+   "mhq": {
+    "players": 0,
+    "capacity": 16,
+    "teams": null,
+    "interested": 0,
+    "status": "New"
    }
   },
   {
@@ -41817,7 +42016,7 @@
    "capacity": 30,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 19,
+   "interested": 26,
    "rounds": 5,
    "status": "Registrations open",
    "started": false,
@@ -41859,9 +42058,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Toulon 2026-2027"
    ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, VenomNerva, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, VenomNerva, FEQ, Toulon 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Toulon - Aller, soit les équipes suivantes : CFVER Compagnie Zerø Immaterium Team Le Vieux Monde Les BOYZ de la Rade Les GROTZ de la Rade Rétroplanning : Deadline sortie GW Samedi 24/10/2026 Deadline prise en compte des FAQ FEQ Vendredi 29/10/2026 Deadline envoi des listes et paiements Jeudi 5/11/2026 Deadline correction Dispositions Vendredi 6/11/2026 Date publication des listes Samedi 7/11/2026 Date appariements Samedi 7/11/2026 Date rendu des vérifications Jeudi 12/11/2026 Date correction listes Lundi 16/11/2026 Date événement",
    "dept": "83",
    "urls": {
@@ -41891,15 +42091,16 @@
    "capacity": 30,
    "teams": 0,
    "teamsCapacity": 5,
-   "interested": 0,
+   "interested": 1,
    "rounds": 5,
    "status": "Registrations open",
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Grelyon 2026-2027"
    ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Canapélit, Orga_FEQ, Bam, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Canapélit, Orga_FEQ, Bam, FEQ, Grelyon 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Grelyon - Aller, soit les équipes suivantes : BOGOS Academy Grenoble Wargame Club - Chill L'Antre des Z'héros Les So6 Lyon Wild Cats Espace Nelson Mandela à Fontaine. Rétroplanning : Deadline sortie : Samedi 23/10/2025 Deadline prise en compte des FAQ FEQ : Vendredi 29/10/2025 Deadline envoi des listes et paiements : Jeudi 5/11/2025 Deadline disposition: Vendredi 6/11/2026 Date publication des listes, scénario et appariements : Samedi 7/11/2025 Date rendu des vérifications : Jeudi 12/11/2025 Date correction listes : Lundi 16/11/2",
    "dept": "38",
    "urls": {
@@ -41965,9 +42166,9 @@
    "capacity": 24,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 0,
+   "interested": 7,
    "rounds": 4,
-   "status": "New",
+   "status": "Registrations open",
    "started": false,
    "ended": false,
    "badges": [],
@@ -42001,7 +42202,7 @@
    "capacity": 24,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 15,
+   "interested": 17,
    "rounds": 3,
    "status": "Registrations open",
    "started": false,
@@ -42033,11 +42234,11 @@
    "country": "France",
    "lat": 49.362217,
    "lon": 0.816939,
-   "players": 16,
+   "players": 27,
    "capacity": 30,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 26,
+   "interested": 34,
    "rounds": 5,
    "status": "Registrations open",
    "started": false,
@@ -42109,7 +42310,7 @@
    "capacity": 24,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 14,
+   "interested": 16,
    "rounds": 4,
    "status": "Registrations open",
    "started": false,
@@ -42181,15 +42382,16 @@
    "capacity": 30,
    "teams": 0,
    "teamsCapacity": 5,
-   "interested": 0,
+   "interested": 1,
    "rounds": 5,
    "status": "Registrations open",
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Gers 2026-2027"
    ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Final64, Orga_FEQ, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Final64, Orga_FEQ, FEQ, Gers 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Gers - Aller, soit les équipes suivantes : KickASSoulet L3 La Paluche Les Canards de l'Empereur Les stratèges d'ambre Pyrénées Wargames Rétroplanning : Deadline sortie GW Samedi 7/11/2026 Deadline prise en compte des FAQ FEQ Vendredi 13/11/2026 Deadline envoi des listes et paiements Jeudi 19/11/2026 Deadline de correction des Force Disposition Vendredi 20/11/2026 Date publication des listes Samedi 21/11/2026 Date des appariements Samedi 21/11/2026 Date rendu des vérifications Jeudi 26/11/2026 Date modification des listes selon le",
    "dept": null,
    "urls": {
@@ -42219,7 +42421,7 @@
    "capacity": 40,
    "teams": null,
    "teamsCapacity": null,
-   "interested": 45,
+   "interested": 49,
    "rounds": 5,
    "status": "Registrations open",
    "started": false,
@@ -42250,7 +42452,7 @@
    "country": "France",
    "lat": 43.4044058,
    "lon": 5.0516458,
-   "players": 3,
+   "players": 4,
    "capacity": 16,
    "rounds": 3,
    "teamEvent": false,
@@ -42262,7 +42464,7 @@
    "organizer": "Julien Imbert",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-06-30/eEvoT9PjX99k.png",
    "description": "Les Pitous de la Garrigue vous accueillent pour un tournoi individuel en 2000 pts format sur une journée (3 rondes).\n\n\nNombre de places : 16 joueurs\n\nLe Paf est de 15€ à régler par avance par le Helloasso et comprend : un petit déjeuner, eau et boissons en libre-service (soft ou bières)\n\nPour limiter le coût et garder nos tournois accessibles à tous, le repas ne sera pas inclus : chacun est libre de prendre son casse-croute. Pour ceux qui le souhaitent, une option repas est néanmoins prévue pour 6€ en plus sur Helloasso (le menu n'est pas encore défini mais lors de notre dernier tournoi, nous ",
-   "updatedAt": "2026-09-08T18:46:22.766Z",
+   "updatedAt": "2026-10-09T20:32:21.386Z",
    "dept": "13",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/DKICqtDqFiBv"
@@ -42302,6 +42504,42 @@
    "dept": "75",
    "urls": {
     "mhq": "https://miniheadquarters.com/tournaments/team/details/fwc-warhammer-40000-n89-solo-2000-points-2026-12-19"
+   }
+  },
+  {
+   "source": "mhq",
+   "id": "mhq:gt-les-des-sales-de-noel-2026-12-19",
+   "name": "GT Les Dés Salés de Noël",
+   "url": "https://miniheadquarters.com/tournaments/individual/details/gt-les-des-sales-de-noel-2026-12-19",
+   "game": "Warhammer 40000",
+   "date": "2026-12-19",
+   "endDate": null,
+   "format": "solo",
+   "teamSize": null,
+   "teamEvent": false,
+   "venue": null,
+   "address": "210 RUE DE LA BRISE MUR 77720 Saint-Ouen-en-Brie",
+   "city": "Saint-Ouen-en-Brie",
+   "region": "Île-de-France",
+   "zip": "77720",
+   "country": "France",
+   "lat": 48.559223,
+   "lon": 2.915601,
+   "players": 0,
+   "capacity": 30,
+   "teams": null,
+   "teamsCapacity": null,
+   "interested": 18,
+   "rounds": 5,
+   "status": "Registrations open",
+   "started": false,
+   "ended": false,
+   "badges": [],
+   "organizer": "Sparda",
+   "description": "GT Les Dés Salés de Noël est un tournoi de Warhammer 40K au format Event Companion V11 , Force de Frappe - 2000pts en solo les 19 et 20 décembre 2026 à St Ouen en Brie 77720 Seine-et-Marne. La validation de l'inscription est faite une fois le paiement reçu. Plus d'info dans le règlement. Lien du Règlement : https://docs.google.com/document/d/1hNZCQzadrvQ7WVVRSvp1oMp_U2oyD4Ol4rH5TL235pI/edit?tab=t.0 Liste des Inscrits : 1. Voidlancer 2. Junkei 3.Kolkrar 4. SGO 94 5. Anrakyr 6. Owned 7. Kharn Date : 19 et 20 Décembre 2026 Lieu : Salle Georges Brassens, Rue de la Brise Mur 77720 St Ouen en Brie N",
+   "dept": "77",
+   "urls": {
+    "mhq": "https://miniheadquarters.com/tournaments/individual/details/gt-les-des-sales-de-noel-2026-12-19"
    }
   },
   {
@@ -42365,7 +42603,7 @@
    "teamsCapacity": null,
    "interested": 0,
    "rounds": 4,
-   "status": "New",
+   "status": "Registrations open",
    "started": false,
    "ended": false,
    "badges": [],
@@ -42410,6 +42648,42 @@
    "dept": "86",
    "urls": {
     "bcp": "https://www.bestcoastpairings.com/event/4eahfaki3aRj"
+   }
+  },
+  {
+   "source": "bcp",
+   "id": "bcp:wASsmCenV6Oq",
+   "name": "PATH TO GLORY - FIRETEAM",
+   "url": "https://www.bestcoastpairings.com/event/wASsmCenV6Oq",
+   "game": "Warhammer 40,000",
+   "date": "2027-02-27",
+   "endDate": "2027-02-28",
+   "format": "team",
+   "teamSize": null,
+   "venue": "Halle Grenette",
+   "address": "Halle Grenette, Rue Grenette, Bourgoin-Jallieu 38300, France",
+   "city": "Bourgoin-Jallieu",
+   "region": "Auvergne-Rhône-Alpes",
+   "zip": "38300",
+   "country": "France",
+   "lat": 45.586445,
+   "lon": 5.2779289,
+   "players": 0,
+   "capacity": 8,
+   "rounds": 5,
+   "teamEvent": true,
+   "started": false,
+   "ended": false,
+   "price": 27500,
+   "currency": "eur",
+   "leagues": [],
+   "organizer": "A12 EVENTS",
+   "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-10-07/FJcmZFPcKbfm.png",
+   "description": "Date de prise en compte des sorties : 06.02.2027 à 23:59\n\nDate de rendu des listes : 13.02.2027 à 23:59\n\nDeadline de correction : 20.02.2027 à 23:59\n\nToutes les informations et l'event pack sur:\n\nhttps://pathtoglory.fr/\n\n\n8 Equipes de 5 joueurs\n\n08:00 Accueil des joueurs \n\n08:30-12:15 Ronde 1\n\n13:00-16:45 - Ronde 2\n\n17:15- 21:00 Ronde 3\n\n08:00 Accueil des joueurs\n\n08:30-12:15 Ronde 1\n\n13:00-16:45 - Ronde 2\n\n17:00- Remise des prix\n\n18:00 Fin",
+   "updatedAt": "2026-10-08T16:40:59.892Z",
+   "dept": "38",
+   "urls": {
+    "bcp": "https://www.bestcoastpairings.com/event/wASsmCenV6Oq"
    }
   },
   {
@@ -42477,9 +42751,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L1 2026-2027"
    ],
-   "organizer": "La-corneille-à-3-yeux, Manwe, FEQ",
+   "organizer": "La-corneille-à-3-yeux, Manwe, FEQ, L1 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 1 - Aller, soit les équipes suivantes : Bières & Pistaches FNP FTA L1 Fuseurs Lorrains Griffons Kaijū Legio Invicta Semi-Croustillant Tacle à la Gorge Yokai Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42515,9 +42790,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L1 2026-2027"
    ],
-   "organizer": "La-corneille-à-3-yeux, Manwe, FEQ",
+   "organizer": "La-corneille-à-3-yeux, Manwe, FEQ, L1 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 1 - Retour, soit les équipes suivantes : Bières & Pistaches FNP FTA L1 Fuseurs Lorrains Griffons Kaijū Legio Invicta Semi-Croustillant Tacle à la Gorge Yokai Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42553,9 +42829,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Nord 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, L2 Nord 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Nord - Aller, soit les équipes suivantes : 40KT1 Bisounours FNP2 Les Orchidoclastes Primogenitors LES SLAY'EURE DE LA CONFRERIE Wargame X Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42591,9 +42868,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Nord 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, L2 Nord 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Nord - Retour, soit les équipes suivantes : 40KT1 Bisounours FNP2 Les Orchidoclastes Primogenitors LES SLAY'EURE DE LA CONFRERIE Wargame X Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42629,9 +42907,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Nord-Est 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, L2 Nord-Est 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Nord-Est - Aller, soit les équipes suivantes : Alliance de l'Est Le Comté Obscur Les Licornes Truquées Pusher Rangers Stardust Crusaders Strastégie Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42667,9 +42946,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Nord-Est 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, L2 Nord-Est 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Nord-Est - Retour, soit les équipes suivantes : Alliance de l'Est Le Comté Obscur Les Licornes Truquées Pusher Rangers Stardust Crusaders Strastégie Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42693,8 +42973,8 @@
    "region": null,
    "zip": null,
    "country": "France",
-   "lat": null,
-   "lon": null,
+   "lat": 46.603354,
+   "lon": 1.888334,
    "players": 0,
    "capacity": 40,
    "teams": 0,
@@ -42705,9 +42985,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Nord-Ouest 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, genietchampion, FEQ, L2 Nord-Ouest 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Nord-Ouest - Aller, soit les équipes suivantes : Adeptus Carnotensis FTA ligue 2 Les Poètes ODM Passion Fluff Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42743,9 +43024,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Nord-Ouest 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, L2 Nord-Ouest 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Nord-Ouest - Retour, soit les équipes suivantes : Adeptus Carnotensis FTA ligue 2 Les Poètes ODM Passion Fluff Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42781,9 +43063,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Sud-Est 2026-2027"
    ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Bam, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Bam, FEQ, L2 Sud-Est 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Sud-Est - Aller, soit les équipes suivantes : BOGOS Grenoble Wargame Club Legio Mistralis Les Feux de l'Armure Les Ramoneurs Wargame Territory Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42819,9 +43102,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Sud-Est 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, L2 Sud-Est 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Sud-Est - Retour, soit les équipes suivantes : BOGOS Grenoble Wargame Club Legio Mistralis Les Feux de l'Armure Les Ramoneurs Wargame Territory Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42857,9 +43141,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Sud-Ouest 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, L2 Sud-Ouest 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Sud-Ouest - Aller, soit les équipes suivantes : Euskal Turnover Kickassoulet Les Zigotos Sons of Chocolatine unicorn bolter power Warp'Gamers Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42895,9 +43180,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "L2 Sud-Ouest 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, L2 Sud-Ouest 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 2 - L2 Sud-Ouest - Retour, soit les équipes suivantes : Euskal Turnover Kickassoulet Les Zigotos Sons of Chocolatine unicorn bolter power Warp'Gamers Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42933,9 +43219,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Albi 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Albi 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Albi - Retour, soit les équipes suivantes : Flat Pure plasm'albigeois Unicorn Hammer Power Varagyr Wargame Ruthène Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -42959,8 +43246,8 @@
    "region": null,
    "zip": null,
    "country": "France",
-   "lat": null,
-   "lon": null,
+   "lat": 46.603354,
+   "lon": 1.888334,
    "players": 0,
    "capacity": 24,
    "teams": 0,
@@ -42971,9 +43258,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Angers 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, genietchampion, FEQ, Angers 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Angers - Aller, soit les équipes suivantes : KFC L8D6 pouet Team Angevine Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43009,9 +43297,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Angers 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Angers 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Angers - Retour, soit les équipes suivantes : KFC L8D6 pouet Team Angevine Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43047,9 +43336,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Aude 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Aude 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Aude - Aller, soit les équipes suivantes : Grabuge La Roumègue ariégeoise Les Gobyzz Manants des sources Thalos Academy Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43085,9 +43375,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Aude 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Aude 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Aude - Retour, soit les équipes suivantes : Grabuge La Roumègue ariégeoise Les Gobyzz Manants des sources Thalos Academy Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43123,9 +43414,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Auvergne 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Auvergne 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Auvergne - Aller, soit les équipes suivantes : Arverngers 1 Arverngers 2 Les Coujoux Truffade et Pâté Wargames Bourbonnais Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43161,9 +43453,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Auvergne 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Auvergne 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Auvergne - Retour, soit les équipes suivantes : Arverngers 1 Arverngers 2 Les Coujoux Truffade et Pâté Wargames Bourbonnais Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43199,9 +43492,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Basse-Normandie 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, genietchampion, FEQ, Basse-Normandie 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Basse-Normandie - Aller, soit les équipes suivantes : FTA Hysteresis L'Embuscade Les Gretchins Les Lutins du Cotentin Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43237,9 +43531,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Basse-Normandie 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Basse-Normandie 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Basse-Normandie - Retour, soit les équipes suivantes : FTA Hysteresis L'Embuscade Les Gretchins Les Lutins du Cotentin Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43275,9 +43570,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "BeFraLux 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, BeFraLux 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - BeFraLux - Aller, soit les équipes suivantes : Basement Crew La Lux'hure Licornes Truquées Team B Luxembourg Braves Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43313,9 +43609,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "BeFraLux 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, BeFraLux 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - BeFraLux - Retour, soit les équipes suivantes : Basement Crew La Lux'hure Licornes Truquées Team B Luxembourg Braves Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43351,9 +43648,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Bordeaux 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Bordeaux 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Bordeaux - Aller, soit les équipes suivantes : IzonKaboum les apprentis joueurs de garage Les Cuillères en Bois Les joueurs du garage 2 limes sanglantes Warp'gamers 2 Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43389,51 +43687,14 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Bordeaux 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Bordeaux 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Bordeaux - Retour, soit les équipes suivantes : IzonKaboum les apprentis joueurs de garage Les Cuillères en Bois Les joueurs du garage 2 limes sanglantes Warp'gamers 2 Rétroplanning : À venir",
    "dept": null,
    "urls": {
     "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-bordeaux-retour-2027-06-30"
-   }
-  },
-  {
-   "source": "mhq",
-   "id": "mhq:team:league-wars-2026-2027-ligue-3-bouches-du-rhone-aller-2027-06-30",
-   "name": "League Wars 2026-2027 - Ligue 3 - Bouches-du-Rhône - Aller",
-   "url": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-bouches-du-rhone-aller-2027-06-30",
-   "game": "Warhammer 40000",
-   "date": "2027-06-30",
-   "endDate": null,
-   "format": "team",
-   "teamSize": 6,
-   "teamEvent": true,
-   "venue": null,
-   "address": null,
-   "city": null,
-   "region": null,
-   "zip": null,
-   "country": "France",
-   "lat": 46.603354,
-   "lon": 1.888334,
-   "players": 0,
-   "capacity": 36,
-   "teams": 0,
-   "teamsCapacity": 6,
-   "interested": 0,
-   "rounds": 5,
-   "status": "New",
-   "started": false,
-   "ended": false,
-   "badges": [
-    "FEQ"
-   ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Uzulth, FEQ",
-   "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Bouches-du-Rhône - Aller, soit les équipes suivantes : Dés salés - Gard Drunk'in Gretchin'Z Legio Arausio Legio Mistralis L3 Manouche Origine Provence Warp Game Rétroplanning : Deadline sortie GW Samedi 17/10/2026 Deadline prise en compte des FAQ FEQ Vendredi 23/10/2026 Deadline envoi des listes et paiements Jeudi 29/10/2026 Deadline correction Dispositions Vendredi 30/10/2026 Date publication des listes Samedi 31/10/2026 Date appariements Samedi 31/10/2026 Date rendu des vérifications Jeudi 5/11/2026 Date correction listes Lundi",
-   "dept": null,
-   "urls": {
-    "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-bouches-du-rhone-aller-2027-06-30"
    }
   },
   {
@@ -43465,9 +43726,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Bouches-du-Rhône 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Bouches-du-Rhône 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Bouches-du-Rhône - Retour, soit les équipes suivantes : Dés salés - Gard Drunk'in Gretchin'Z Legio Arausio Legio Mistralis L3 Manouche Origine Provence Warp Game Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43503,9 +43765,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Bourgogne-France-Comté 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Bourgogne-France-Comté 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Bourgogne-France-Comté - Aller, soit les équipes suivantes : Alliance de l'3st Ordo Vesontio Temporis Ordo.Vesontio Chronos Turbo Must'Hard Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43541,51 +43804,14 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Bourgogne-France-Comté 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Bourgogne-France-Comté 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Bourgogne-France-Comté - Retour, soit les équipes suivantes : Alliance de l'3st Ordo Vesontio Temporis Ordo.Vesontio Chronos Turbo Must'Hard Rétroplanning : À venir",
    "dept": null,
    "urls": {
     "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-bourgogne-france-comte-retour-2027-06-30"
-   }
-  },
-  {
-   "source": "mhq",
-   "id": "mhq:team:league-wars-2026-2027-ligue-3-calanques-aller-2027-06-30",
-   "name": "League Wars 2026-2027 - Ligue 3 - Calanques - Aller",
-   "url": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-calanques-aller-2027-06-30",
-   "game": "Warhammer 40000",
-   "date": "2027-06-30",
-   "endDate": null,
-   "format": "team",
-   "teamSize": 6,
-   "teamEvent": true,
-   "venue": null,
-   "address": null,
-   "city": null,
-   "region": null,
-   "zip": null,
-   "country": "France",
-   "lat": 46.603354,
-   "lon": 1.888334,
-   "players": 0,
-   "capacity": 36,
-   "teams": 0,
-   "teamsCapacity": 6,
-   "interested": 0,
-   "rounds": 5,
-   "status": "New",
-   "started": false,
-   "ended": false,
-   "badges": [
-    "FEQ"
-   ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Uzulth, FEQ",
-   "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Calanques - Aller, soit les équipes suivantes : Anvil Dragoon Bada Bing! Bières & Pistaches OG Les NOBZ de la Rade Les TourTons Flingueurs Manouchie - Hérisson Rétroplanning : Deadline sortie GW Samedi 17/10/2026 Deadline prise en compte des FAQ FEQ Vendredi 23/10/2026 Deadline envoi des listes et paiements Jeudi 29/10/2026 Deadline correction Dispositions Vendredi 30/10/2026 Date publication des listes Samedi 31/10/2026 Date appariements Samedi 31/10/2026 Date rendu des vérifications Jeudi 5/11/2026 Date correction listes Lundi ",
-   "dept": null,
-   "urls": {
-    "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-calanques-aller-2027-06-30"
    }
   },
   {
@@ -43617,9 +43843,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Calanques 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Calanques 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Calanques - Retour, soit les équipes suivantes : Anvil Dragoon Bada Bing! Bières & Pistaches OG Les NOBZ de la Rade Les TourTons Flingueurs Manouchie - Hérisson Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43655,9 +43882,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Centre 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Centre 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Centre - Aller, soit les équipes suivantes : berry roll Candy Bullet Cominus & Eminus Gentlemen Wargame Club La 36ème Légion Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43693,9 +43921,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Centre 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Centre 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Centre - Retour, soit les équipes suivantes : berry roll Candy Bullet Cominus & Eminus Gentlemen Wargame Club La 36ème Légion Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43731,9 +43960,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Charente 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Charente 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Charente - Aller, soit les équipes suivantes : 40 K-Gouille Boisseuil Wargames La MariTeam Les Trollistes Limoges Wargames Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43769,9 +43999,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Charente 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Charente 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Charente - Retour, soit les équipes suivantes : 40 K-Gouille Boisseuil Wargames La MariTeam Les Trollistes Limoges Wargames Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43807,9 +44038,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Finistère 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, genietchampion, FEQ, Finistère 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Finistère - Aller, soit les équipes suivantes : 22ème Légion Galactic Squad La communauté du dé Les Plumes Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43845,9 +44077,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Finistère 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Finistère 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Finistère - Retour, soit les équipes suivantes : 22ème Légion Galactic Squad La communauté du dé Les Plumes Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43883,9 +44116,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Gers 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Gers 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Gers - Retour, soit les équipes suivantes : KickASSoulet L3 La Paluche Les Canards de l'Empereur Les stratèges d'ambre Pyrénées Wargames Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43921,9 +44155,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Grelyon 2026-2027"
    ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Canapélit, Orga_FEQ, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Canapélit, Orga_FEQ, FEQ, Grelyon 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Grelyon - Retour, soit les équipes suivantes : BOGOS Academy Grenoble Wargame Club - Chill L'Antre des Z'héros Les So6 Lyon Wild Cats Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43947,8 +44182,8 @@
    "region": null,
    "zip": null,
    "country": "France",
-   "lat": null,
-   "lon": null,
+   "lat": 46.603354,
+   "lon": 1.888334,
    "players": 0,
    "capacity": 24,
    "teams": 0,
@@ -43959,9 +44194,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Guérande 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, genietchampion, FEQ, Guérande 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Guérande - Aller, soit les équipes suivantes : Les Dés'Luminatis Les Templiers Les vainqueurs de la belette bretone de winchester LTA Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -43997,9 +44233,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Guérande 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Guérande 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Guérande - Retour, soit les équipes suivantes : Les Dés'Luminatis Les Templiers Les vainqueurs de la belette bretone de winchester LTA Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44035,9 +44272,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Landes 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Landes 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Landes - Aller, soit les équipes suivantes : Euskal Hangover Griffon L3 Le codex ? Quel codex ? Les joueurs de garage Les Kharnelés Les Space Quacks Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44073,9 +44311,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Landes 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Landes 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Landes - Retour, soit les équipes suivantes : Euskal Hangover Griffon L3 Le codex ? Quel codex ? Les joueurs de garage Les Kharnelés Les Space Quacks Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44099,8 +44338,8 @@
    "region": null,
    "zip": null,
    "country": "France",
-   "lat": null,
-   "lon": null,
+   "lat": 46.603354,
+   "lon": 1.888334,
    "players": 0,
    "capacity": 36,
    "teams": 0,
@@ -44111,9 +44350,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Lille 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Vorak, Malahad, FEQ, Lille 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Lille - Aller, soit les équipes suivantes : Chmecs_MC Ginyu Force Haut Death France Le Trône de Terra North is coming Team Creative Wargames - Alliance du Nord Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44149,9 +44389,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Lille 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Lille 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Lille - Retour, soit les équipes suivantes : Chmecs_MC Ginyu Force Haut Death France Le Trône de Terra North is coming Team Creative Wargames - Alliance du Nord Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44187,9 +44428,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Lyon 2026-2027"
    ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Bam, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Bam, FEQ, Lyon 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Lyon - Aller, soit les équipes suivantes : Cartel de Trolls Le wargame club des pierres dorées WCDPD Les Folies Guerrières Lyonceaux War CLub Stat ça passe Team Girafons Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44225,51 +44467,14 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Lyon 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Lyon 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Lyon - Retour, soit les équipes suivantes : Cartel de Trolls Le wargame club des pierres dorées WCDPD Les Folies Guerrières Lyonceaux War CLub Stat ça passe Team Girafons Rétroplanning : À venir",
    "dept": null,
    "urls": {
     "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-lyon-retour-2027-06-30"
-   }
-  },
-  {
-   "source": "mhq",
-   "id": "mhq:team:league-wars-2026-2027-ligue-3-leman-aller-2027-06-30",
-   "name": "League Wars 2026-2027 - Ligue 3 - Léman - Aller",
-   "url": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-leman-aller-2027-06-30",
-   "game": "Warhammer 40000",
-   "date": "2027-06-30",
-   "endDate": null,
-   "format": "team",
-   "teamSize": 6,
-   "teamEvent": true,
-   "venue": null,
-   "address": null,
-   "city": null,
-   "region": null,
-   "zip": null,
-   "country": "France",
-   "lat": 46.603354,
-   "lon": 1.888334,
-   "players": 0,
-   "capacity": 24,
-   "teams": 0,
-   "teamsCapacity": 4,
-   "interested": 0,
-   "rounds": 3,
-   "status": "New",
-   "started": false,
-   "ended": false,
-   "badges": [
-    "FEQ"
-   ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Bam, VenomNerva, FEQ",
-   "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Léman - Aller, soit les équipes suivantes : Adeptus geekus Bucc's Les Gobelins du Léman Les Pirates du Léman Rétroplanning : À venir",
-   "dept": null,
-   "urls": {
-    "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-leman-aller-2027-06-30"
    }
   },
   {
@@ -44301,9 +44506,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Léman 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Léman 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Léman - Retour, soit les équipes suivantes : Adeptus geekus Bucc's Les Gobelins du Léman Les Pirates du Léman Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44339,9 +44545,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Metz 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Metz 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Metz - Aller, soit les équipes suivantes : Drenzk L'Ost des Licornes Truquées L3 (Team A) La Metz Noire Les Corbeaux du Grand Est Les GOATS Les licornes du graoully Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44377,51 +44584,14 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Metz 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Metz 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Metz - Retour, soit les équipes suivantes : Drenzk L'Ost des Licornes Truquées L3 (Team A) La Metz Noire Les Corbeaux du Grand Est Les GOATS Les licornes du graoully Rétroplanning : À venir",
    "dept": null,
    "urls": {
     "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-metz-retour-2027-06-30"
-   }
-  },
-  {
-   "source": "mhq",
-   "id": "mhq:team:league-wars-2026-2027-ligue-3-montauban-aller-2027-06-30",
-   "name": "League Wars 2026-2027 - Ligue 3 - Montauban - Aller",
-   "url": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-montauban-aller-2027-06-30",
-   "game": "Warhammer 40000",
-   "date": "2027-06-30",
-   "endDate": null,
-   "format": "team",
-   "teamSize": 6,
-   "teamEvent": true,
-   "venue": null,
-   "address": null,
-   "city": null,
-   "region": null,
-   "zip": null,
-   "country": "France",
-   "lat": 46.603354,
-   "lon": 1.888334,
-   "players": 0,
-   "capacity": 24,
-   "teams": 0,
-   "teamsCapacity": 4,
-   "interested": 0,
-   "rounds": 3,
-   "status": "New",
-   "started": false,
-   "ended": false,
-   "badges": [
-    "FEQ"
-   ],
-   "organizer": "Immortus, La-corneille-à-3-yeux, MardollTar, Orga_FEQ, LordBisounours, FEQ",
-   "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Montauban - Aller, soit les équipes suivantes : CW Sud Imperialis Metapero Tarn & Darrones Unicorn Reaver power Rétroplanning : À venir",
-   "dept": null,
-   "urls": {
-    "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-montauban-aller-2027-06-30"
    }
   },
   {
@@ -44453,9 +44623,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Montauban 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Montauban 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Montauban - Retour, soit les équipes suivantes : CW Sud Imperialis Metapero Tarn & Darrones Unicorn Reaver power Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44491,9 +44662,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Montpellier 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Montpellier 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Montpellier - Retour, soit les équipes suivantes : Bataille pour 1D6 KCDQ Legio Pendragon MFox Lovers Octopia Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44529,9 +44701,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Nanstrasbourg 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Nanstrasbourg 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Nanstrasbourg - Aller, soit les équipes suivantes : Adeptus Tourismus Alsa-Legion Carduus Dominatus Les Chevaliers du Socle Rond Les Loups du Téméraire Sektor Galliculs. Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44567,9 +44740,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Nanstrasbourg 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Nanstrasbourg 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Nanstrasbourg - Retour, soit les équipes suivantes : Adeptus Tourismus Alsa-Legion Carduus Dominatus Les Chevaliers du Socle Rond Les Loups du Téméraire Sektor Galliculs. Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44605,9 +44779,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Nantes 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, genietchampion, FEQ, Nantes 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Nantes - Aller, soit les équipes suivantes : Compensator Squad Fédération des Choix Contestables Flower & Bolter Hazardous Squad Mid Table Bullies Schol'Hazardeux Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44643,9 +44818,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Nantes 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Nantes 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Nantes - Retour, soit les équipes suivantes : Compensator Squad Fédération des Choix Contestables Flower & Bolter Hazardous Squad Mid Table Bullies Schol'Hazardeux Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44681,9 +44857,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Nice 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Nice 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Nice - Retour, soit les équipes suivantes : KASS'NWA Les Chevaliers Crétins Les Citrons du Warp Les modélistes avant tout NWA - Les Aquilons Reloaded Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44707,8 +44884,8 @@
    "region": null,
    "zip": null,
    "country": "France",
-   "lat": null,
-   "lon": null,
+   "lat": 46.603354,
+   "lon": 1.888334,
    "players": 0,
    "capacity": 36,
    "teams": 0,
@@ -44719,9 +44896,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Nord-Belgique 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Malahad, FEQ, Nord-Belgique 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Nord-Belgique - Aller, soit les équipes suivantes : La tablée moussue La Tour d'Ebène Les Bastonneurs North Is Coming Baby Pasta Croquette Team CMB Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44757,9 +44935,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Nord-Belgique 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Nord-Belgique 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Nord-Belgique - Retour, soit les équipes suivantes : La tablée moussue La Tour d'Ebène Les Bastonneurs North Is Coming Baby Pasta Croquette Team CMB Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44795,9 +44974,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Orly 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Orly 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Orly - Aller, soit les équipes suivantes : Blitz bees Durandal Omega KissMyAce Le Beau Jeu Les cailloux Les Résistants Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44833,9 +45013,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Orly 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Orly 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Orly - Retour, soit les équipes suivantes : Blitz bees Durandal Omega KissMyAce Le Beau Jeu Les cailloux Les Résistants Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44871,9 +45052,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Pas-de-Calais 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Immortus, La-corneille-à-3-yeux, Orga_FEQ, Vorak, Malahad, FEQ, Pas-de-Calais 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Pas-de-Calais - Aller, soit les équipes suivantes : Division 404 Itius Warteam Roll & War Alpha Roll&War-Omega Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44909,9 +45091,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Pas-de-Calais 2026-2027"
    ],
-   "organizer": "La-corneille-à-3-yeux, Orga_FEQ, Immortus, FEQ",
+   "organizer": "La-corneille-à-3-yeux, Orga_FEQ, Immortus, FEQ, Pas-de-Calais 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Pas-de-Calais - Retour, soit les équipes suivantes : Division 404 Itius Warteam Roll & War Alpha Roll&War-Omega Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44947,9 +45130,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Reims-Quentin 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Reims-Quentin 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Reims-Quentin - Aller, soit les équipes suivantes : Champagne karnage La 48 Les Gladiateurs de l'Ar'Aisne Les Parangons des Sacres Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -44985,9 +45169,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Reims-Quentin 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Reims-Quentin 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Reims-Quentin - Retour, soit les équipes suivantes : Champagne karnage La 48 Les Gladiateurs de l'Ar'Aisne Les Parangons des Sacres Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45023,9 +45208,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Rennes 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Rennes 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Rennes - Aller, soit les équipes suivantes : Armor Bière & Bolter Galette Saucisse et Hérésie L'ART DE LA CHANCE Lions Celtes Roquefort Bagarre Worsthammer Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45061,9 +45247,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Rennes 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Rennes 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Rennes - Retour, soit les équipes suivantes : Armor Bière & Bolter Galette Saucisse et Hérésie L'ART DE LA CHANCE Lions Celtes Roquefort Bagarre Worsthammer Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45099,9 +45286,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Rouen-Forêt 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Rouen-Forêt 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Rouen-Forêt - Aller, soit les équipes suivantes : Adeptus Normandicus Grosses Girouettes The Beginn'eures Wargame X Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45137,9 +45325,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Rouen-Forêt 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Rouen-Forêt 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Rouen-Forêt - Retour, soit les équipes suivantes : Adeptus Normandicus Grosses Girouettes The Beginn'eures Wargame X Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45175,9 +45364,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Rouen-Plage 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Rouen-Plage 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Rouen-Plage - Aller, soit les équipes suivantes : La confrérie des hauts Normands La PAX Le clan des falaises Les Success'Eure de la Confrérie Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45213,9 +45403,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Rouen-Plage 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Rouen-Plage 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Rouen-Plage - Retour, soit les équipes suivantes : La confrérie des hauts Normands La PAX Le clan des falaises Les Success'Eure de la Confrérie Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45251,9 +45442,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Savoie 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Savoie 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Savoie - Aller, soit les équipes suivantes : Équipe Ludik Error 40K La Sawaaagh!?! Les 1D6 Les 40k tastrophes Les dès en pls Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45289,9 +45481,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Savoie 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Savoie 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Savoie - Retour, soit les équipes suivantes : Équipe Ludik Error 40K La Sawaaagh!?! Les 1D6 Les 40k tastrophes Les dès en pls Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45327,9 +45520,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Seine-et-Marne 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Seine-et-Marne 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Seine-et-Marne - Aller, soit les équipes suivantes : Antre du Dragon Les Dés Salés Les Warpiculteurs Space Monkeys Veni vedi mini Warp Goats Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45365,9 +45559,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Seine-et-Marne 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Seine-et-Marne 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Seine-et-Marne - Retour, soit les équipes suivantes : Antre du Dragon Les Dés Salés Les Warpiculteurs Space Monkeys Veni vedi mini Warp Goats Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45403,9 +45598,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Toulon 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Toulon 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Toulon - Retour, soit les équipes suivantes : CFVER Compagnie Zerø Immaterium Team Le Vieux Monde Les BOYZ de la Rade Les GROTZ de la Rade Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45441,9 +45637,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Toulouse 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Toulouse 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Toulouse - Aller, soit les équipes suivantes : Dice Men Duck Nukem FEA La Voie du Thalos Les Culs-de-Chouettes Machomen’s Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45479,9 +45676,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Toulouse 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Toulouse 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Toulouse - Retour, soit les équipes suivantes : Dice Men Duck Nukem FEA La Voie du Thalos Les Culs-de-Chouettes Machomen’s Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45517,9 +45715,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Val-d'Oise 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Val-d'Oise 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Val-d'Oise - Aller, soit les équipes suivantes : Adeptus Cergitus AJAbis Apex ERREUR 40K - Licornes La 20eme légion Task Force Aegis Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45555,9 +45754,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Val-d'Oise 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Val-d'Oise 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Val-d'Oise - Retour, soit les équipes suivantes : Adeptus Cergitus AJAbis Apex ERREUR 40K - Licornes La 20eme légion Task Force Aegis Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45593,9 +45793,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Valyon 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Valyon 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Valyon - Aller, soit les équipes suivantes : Battle for Ponyland Briseurs De Stats Kraken Balls La Relance des 6 Dédés LyonWarCub Team Nephael Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45631,9 +45832,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Valyon 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Valyon 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Valyon - Retour, soit les équipes suivantes : Battle for Ponyland Briseurs De Stats Kraken Balls La Relance des 6 Dédés LyonWarCub Team Nephael Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45669,9 +45871,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Versailles 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Versailles 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Versailles - Aller, soit les équipes suivantes : ERREUR 40K - Capybaras Keranis Les Chevaliers de la Table Ovale Les Orchidoclastes Successors Les Pitoumaris Tisseurs de Chimères Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45707,9 +45910,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Versailles 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Versailles 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Versailles - Retour, soit les équipes suivantes : ERREUR 40K - Capybaras Keranis Les Chevaliers de la Table Ovale Les Orchidoclastes Successors Les Pitoumaris Tisseurs de Chimères Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45745,9 +45949,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Yvelines 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Yvelines 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Yvelines - Aller, soit les équipes suivantes : Action jeux AJA Merguez Hammer MGWA Titty Twitter ZTH Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45783,9 +45988,10 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "Yvelines 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, Yvelines 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Yvelines - Retour, soit les équipes suivantes : Action jeux AJA Merguez Hammer MGWA Titty Twitter ZTH Rétroplanning : À venir",
    "dept": null,
    "urls": {
@@ -45821,13 +46027,53 @@
    "started": false,
    "ended": false,
    "badges": [
-    "FEQ"
+    "FEQ",
+    "PO L1 2026-2027"
    ],
-   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ",
+   "organizer": "Orga_FEQ, Immortus, La-corneille-à-3-yeux, FEQ, PO L1 2026-2027",
    "description": "Réservé à l'organisation de la League Wars 2026-2027 - Play-Off L2 -> L1, soit les équipes suivantes : À venir Rétroplanning : À venir",
    "dept": null,
    "urls": {
     "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-play-off-l2-l1-2027-06-30"
+   }
+  },
+  {
+   "source": "mhq",
+   "id": "mhq:team:league-wars-2026-2027-ligue-3-montauban-aller-2027-06-30",
+   "name": "League Wars 2026-2027 - Ligue 3 - Montauban - Aller",
+   "url": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-montauban-aller-2027-06-30",
+   "game": "Warhammer 40000",
+   "date": "2027-11-08",
+   "endDate": null,
+   "format": "team",
+   "teamSize": 6,
+   "teamEvent": true,
+   "venue": null,
+   "address": "195 Chemin de Biscardel 82130 l'honor-de-cos (loubejac)",
+   "city": "l'honor-de-cos (loubejac)",
+   "region": "Occitanie",
+   "zip": "82130",
+   "country": "France",
+   "lat": 44.090942,
+   "lon": 1.350825,
+   "players": 0,
+   "capacity": 24,
+   "teams": 0,
+   "teamsCapacity": 4,
+   "interested": 1,
+   "rounds": 3,
+   "status": "Registrations open",
+   "started": false,
+   "ended": false,
+   "badges": [
+    "FEQ",
+    "Montauban 2026-2027"
+   ],
+   "organizer": "Immortus, La-corneille-à-3-yeux, MardollTar, Orga_FEQ, LordBisounours, FEQ, Montauban 2026-2027",
+   "description": "Réservé à l'organisation de la League Wars 2026-2027 - Ligue 3 - Montauban - Aller, soit les équipes suivantes : CW Sud Imperialis Metapero Tarn & Darrones Unicorn Reaver power Rétroplanning : deadline sortie GW : 09/10/2026 Deadline prise en compte FAQ : 15/10/2026 Deadline envoi listes et paiement : 22/10/2026 Deadline correction force dispo : 23/10/2026 date publication listes : 24/10/2026 date appariements : 24/10/2026 date rendu des vérifications : 29/10/2026 date corrections listes : 02/11/2026 date événement : 08/11/2026",
+   "dept": "82",
+   "urls": {
+    "mhq": "https://miniheadquarters.com/tournaments/team/details/league-wars-2026-2027-ligue-3-montauban-aller-2027-06-30"
    }
   }
  ]

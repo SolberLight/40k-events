@@ -1,7 +1,7 @@
 {
- "fetchedAt": "2026-10-05T11:16:43.850786+00:00",
- "start": "2025-10-05",
- "end": "2028-04-05",
+ "fetchedAt": "2026-10-12T11:45:17.101080+00:00",
+ "start": "2025-10-12",
+ "end": "2028-04-12",
  "events": [
   {
    "source": "bcp",
@@ -1467,7 +1467,7 @@
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-07-21/rvsAK6yYcgzr.png",
    "description": "Date de l'évènement : 19-20.09.2026\n\nDate de prise en compte des sorties : 05.09.2026 à 23:59\n\nDate de rendu des listes : 12.09.2026 à 23:59 Deadline de correction : 16.09.2026 à 23:59\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-09-20T15:25:07.163Z"
+   "updatedAt": "2026-10-07T15:16:51.682Z"
   },
   {
    "source": "bcp",
@@ -1608,41 +1608,6 @@
   },
   {
    "source": "bcp",
-   "id": "bcp:sOvssCbHt45O",
-   "name": "Path to Glory - Paris - n1",
-   "url": "https://www.bestcoastpairings.com/event/sOvssCbHt45O",
-   "game": "Warhammer 40,000",
-   "date": "2026-10-03",
-   "endDate": "2026-10-04",
-   "format": "solo",
-   "teamSize": null,
-   "venue": "French Wargame Café",
-   "address": "29 Rue Louis Blanc, Paris 75010, France",
-   "city": "Paris",
-   "region": "IDF",
-   "zip": "75010",
-   "country": "France",
-   "lat": 48.8804585,
-   "lon": 2.3659071,
-   "players": 3,
-   "capacity": 18,
-   "rounds": 4,
-   "teamEvent": false,
-   "started": false,
-   "ended": false,
-   "price": 0,
-   "currency": "eur",
-   "leagues": [
-    "Warhammer Global Rankings 2026",
-    "Warhammer Global Rankings Hobby Track 2026"
-   ],
-   "organizer": "Mathieu Bach",
-   "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-26/cpsLRxMd1F4i.png",
-   "description": "lien pour le paiement : \n\nhttps://www.billetweb.fr/path-to-glory-1-paris",
-   "updatedAt": "2026-09-26T16:10:44.420Z"
-  },
-  {
-   "source": "bcp",
    "id": "bcp:ZkGNBgXbhAlb",
    "name": "Warp Warriors October 2026",
    "url": "https://www.bestcoastpairings.com/event/ZkGNBgXbhAlb",
@@ -1659,11 +1624,11 @@
    "country": "France",
    "lat": 48.8625383,
    "lon": 2.335954,
-   "players": 16,
+   "players": 30,
    "capacity": 48,
    "rounds": 3,
    "teamEvent": false,
-   "started": false,
+   "started": true,
    "ended": false,
    "price": 0,
    "currency": "usd",
@@ -1671,7 +1636,7 @@
    "organizer": "Mike Pestilens",
    "photo": null,
    "description": "It's time for WARP WARRIORS, your chance for friendly + competitive practice games of 40K!\n\nThe event will be 3 rounds of tournament style 40K, starting Wednesday October 7th. Each round will last 1 week and be played over TTS. \n\nA few quick notes: \n\n* Get the @WarpWarrior tag in the Warphammer discord so you can receive any notifications about the event\n\n* Your list must have your Discord handle at the top. If you don't have your Discord handle in your list you may be kicked out. Please make it easy for your opponents to contact you\n\n* OPTIONAL: You can put your choice of NA (North America) o",
-   "updatedAt": "2026-10-05T07:38:03.960Z"
+   "updatedAt": "2026-10-07T17:31:46.098Z"
   },
   {
    "source": "bcp",
@@ -1691,7 +1656,7 @@
    "country": "France",
    "lat": 48.8988804,
    "lon": 2.390242,
-   "players": 226,
+   "players": 240,
    "capacity": 0,
    "rounds": 8,
    "teamEvent": false,
@@ -1703,10 +1668,10 @@
     "Warhammer Global Rankings 2026",
     "Warhammer Global Rankings Hobby Track 2026"
    ],
-   "organizer": "Clément Riu",
+   "organizer": "Clément - Immortus Riu",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-04/rMrz0r7DylP7.png",
    "description": "(Français en dessous)\n\nWarhammer 40K Open at Paris Wargame Expo 2 solo 2000pts.\n\nDates: 17th and 18th, October 2026 and Monday 19th, October 2026 for the Top 8.\n\nLocation: Paris Event Center : 20 Av. de la Prte de la Villette, 75019 Paris\n\nRegistration: https://feq40k.assoconnect.com/collect/description/723473-l-inscription-paris-wargame-expo-2  \n\nEvent Discord: https://discord.gg/z9rqZMpecN \n\nNumber of spots: 512 Players\n\nPrice: 95€ per player (including 2 breakfasts, 2 lunches, trophies and swag bag)\n\n5 games for everyone, up to 9 for top players.\n\nThis event is a part of the Ligue Solo of F",
-   "updatedAt": "2026-10-04T07:12:15.061Z"
+   "updatedAt": "2026-10-11T10:46:33.233Z"
   },
   {
    "source": "bcp",
@@ -1726,7 +1691,7 @@
    "country": "France",
    "lat": 48.8988804,
    "lon": 2.390242,
-   "players": 65,
+   "players": 85,
    "capacity": 0,
    "rounds": 5,
    "teamEvent": true,
@@ -1738,10 +1703,10 @@
     "Warhammer Global Rankings 2026",
     "Warhammer Global Rankings Hobby Track 2026"
    ],
-   "organizer": "Clément Riu",
+   "organizer": "Clément - Immortus Riu",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-04/yJNpAE9Frz9K.png",
    "description": "Warhammer 40K Team Open at Paris Wargame Expo 2 - 5 players team 2000pts.\n\nDates: 17th and 18th, October 2026.\n\nLocation: Paris Event Center : 20 Av. de la Prte de la Villette, 75019 Paris\n\nRegistration: https://feq40k.assoconnect.com/collect/description/723473-l-inscription-paris-wargame-expo-2  \n\nEvent Discord: https://discord.gg/z9rqZMpecN \n\nNumber of spots: 40 5-Player teams\n\nPrice: 500€ per 5-player teams (including 2 breakfasts, 2 lunches, trophies and swag bag),\n\n50€ per coach (includes same elements as players)\n\n5 Games per team\n\nPublic transportation:\n\nLine 7 of the metro, Porte de la",
-   "updatedAt": "2026-10-04T21:44:31.500Z"
+   "updatedAt": "2026-10-11T21:53:22.912Z"
   },
   {
    "source": "bcp",
@@ -1761,7 +1726,7 @@
    "country": "France",
    "lat": 45.1894792,
    "lon": 5.722658,
-   "players": 13,
+   "players": 16,
    "capacity": 16,
    "rounds": 4,
    "teamEvent": false,
@@ -1774,8 +1739,8 @@
    ],
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-02/W7HYnFZevKDp.png",
-   "description": "Date de l'évènement : 24-25.10.2026\n\nDate de prise en compte des sorties : 10.010.2026 à 23:59\n\nDate de rendu des listes : 17.10.2026 à 23:59 Deadline de correction : 20.10.2026 à 23:59\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-10-04T19:56:16.935Z"
+   "description": "Date de l'évènement : 24-25.10.2026\n\nDate de prise en compte des sorties : 10.10.2026 à 23:59\n\nDate de rendu des listes : 17.10.2026 à 23:59 Deadline de correction : 20.10.2026 à 23:59\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
+   "updatedAt": "2026-10-12T10:57:23.629Z"
   },
   {
    "source": "bcp",
@@ -1810,39 +1775,7 @@
    "organizer": "A12 EVENTS",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-20/5X4jbV9AcBVF.png",
    "description": "Date de prise en compte des sorties : 10.10.2026 à 23:59\n\nDate de rendu des listes : 24.10.2026 à 23:59\n Deadline de correction : 28.10.2026 à 23:59\n\nToutes les informations et l'event pack sur:\n\nhttps://pathtoglory.fr/",
-   "updatedAt": "2026-09-29T19:35:57.236Z"
-  },
-  {
-   "source": "bcp",
-   "id": "bcp:D5iPA0NqZipl",
-   "name": "Baston générale",
-   "url": "https://www.bestcoastpairings.com/event/D5iPA0NqZipl",
-   "game": "Warhammer 40,000",
-   "date": "2026-11-06",
-   "endDate": "2026-11-07",
-   "format": "solo",
-   "teamSize": null,
-   "venue": "Fight club grenoblois",
-   "address": "82 Cours de la Libération et du Général de Gaulle, Grenoble 38000, France",
-   "city": "Grenoble",
-   "region": "Auvergne-Rhône-Alpes",
-   "zip": "38000",
-   "country": "France",
-   "lat": 45.1718056,
-   "lon": 5.713231899999999,
-   "players": 0,
-   "capacity": 0,
-   "rounds": 4,
-   "teamEvent": false,
-   "started": false,
-   "ended": false,
-   "price": 0,
-   "currency": "usd",
-   "leagues": [],
-   "organizer": "Alexandre Turco",
-   "photo": null,
-   "description": "Tournoi 2000 pts au fight club grenoblois.",
-   "updatedAt": "2026-09-09T07:13:25.472Z"
+   "updatedAt": "2026-10-07T15:12:45.152Z"
   },
   {
    "source": "bcp",
@@ -1862,7 +1795,7 @@
    "country": "France",
    "lat": 48.7423213,
    "lon": 7.3633377,
-   "players": 27,
+   "players": 61,
    "capacity": 100,
    "rounds": 5,
    "teamEvent": false,
@@ -1877,7 +1810,74 @@
    "organizer": "Mathieu Bach",
    "photo": null,
    "description": "Lien du règlement : https://drive.google.com/file/d/1WS_nmnN8VhdO2KBzSyNg41RNuYvcssKv/view?usp=sharing\n\nDates : 07 et 08 novembre\n\nAdresse : Château des Rohan, place du Général de Gaulle, 67700 SAVERNE\n\n100 joueurs \n\nScoring et ranking GW (victoire au point près, Winpath) \n\nServeur de l'event : https://discord.gg/GHrjjDr4jk",
-   "updatedAt": "2026-10-05T10:47:00.676Z"
+   "updatedAt": "2026-10-11T18:00:00.206Z"
+  },
+  {
+   "source": "bcp",
+   "id": "bcp:D5iPA0NqZipl",
+   "name": "Baston générale",
+   "url": "https://www.bestcoastpairings.com/event/D5iPA0NqZipl",
+   "game": "Warhammer 40,000",
+   "date": "2026-11-07",
+   "endDate": "2026-11-08",
+   "format": "solo",
+   "teamSize": null,
+   "venue": "Fight club grenoblois",
+   "address": "82 Cours de la Libération et du Général de Gaulle, Grenoble 38000, France",
+   "city": "Grenoble",
+   "region": "Auvergne-Rhône-Alpes",
+   "zip": "38000",
+   "country": "France",
+   "lat": 45.1718056,
+   "lon": 5.713231899999999,
+   "players": 7,
+   "capacity": 16,
+   "rounds": 4,
+   "teamEvent": false,
+   "started": false,
+   "ended": false,
+   "price": 0,
+   "currency": "usd",
+   "leagues": [],
+   "organizer": "Alexandre Turco",
+   "photo": null,
+   "description": "Tournoi 2000 pts au fight club grenoblois.",
+   "updatedAt": "2026-10-12T06:21:08.368Z"
+  },
+  {
+   "source": "bcp",
+   "id": "bcp:sOvssCbHt45O",
+   "name": "PTG - PARIS - PART 1",
+   "url": "https://www.bestcoastpairings.com/event/sOvssCbHt45O",
+   "game": "Warhammer 40,000",
+   "date": "2026-11-14",
+   "endDate": "2026-11-15",
+   "format": "solo",
+   "teamSize": null,
+   "venue": "French Wargame Café",
+   "address": "29 Rue Louis Blanc, Paris 75010, France",
+   "city": "Paris",
+   "region": "IDF",
+   "zip": "75010",
+   "country": "France",
+   "lat": 48.8804585,
+   "lon": 2.3659071,
+   "players": 4,
+   "capacity": 16,
+   "rounds": 4,
+   "teamEvent": false,
+   "started": false,
+   "ended": false,
+   "price": 0,
+   "currency": "eur",
+   "leagues": [
+    "Warhammer Global Rankings 2026",
+    "Warhammer Global Rankings Hobby Track 2026"
+   ],
+   "organizer": "Mathieu Bach",
+   "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-09-26/cpsLRxMd1F4i.png",
+   "description": "Date de l'évènement : 14-15.11.2026\nDate de prise en compte des sorties : 31.10.2026 à 23:59\nDate de rendu des listes : 7.11.2026 à 23:59 \nDeadline de correction : 10.11.2026 à 23:59\nlien pour le paiement : \n\nhttps://www.billetweb.fr/path-to-glory-1-paris\n\nToutes les informations et l'event pack sur: \n\nhttps://pathtoglory.fr/",
+   "updatedAt": "2026-10-12T07:14:25.962Z"
   },
   {
    "source": "bcp",
@@ -1897,7 +1897,7 @@
    "country": "France",
    "lat": 43.4044058,
    "lon": 5.0516458,
-   "players": 3,
+   "players": 4,
    "capacity": 16,
    "rounds": 3,
    "teamEvent": false,
@@ -1909,7 +1909,7 @@
    "organizer": "Julien Imbert",
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-06-30/eEvoT9PjX99k.png",
    "description": "Les Pitous de la Garrigue vous accueillent pour un tournoi individuel en 2000 pts format sur une journée (3 rondes).\n\n\nNombre de places : 16 joueurs\n\nLe Paf est de 15€ à régler par avance par le Helloasso et comprend : un petit déjeuner, eau et boissons en libre-service (soft ou bières)\n\nPour limiter le coût et garder nos tournois accessibles à tous, le repas ne sera pas inclus : chacun est libre de prendre son casse-croute. Pour ceux qui le souhaitent, une option repas est néanmoins prévue pour 6€ en plus sur Helloasso (le menu n'est pas encore défini mais lors de notre dernier tournoi, nous ",
-   "updatedAt": "2026-09-08T18:46:22.766Z"
+   "updatedAt": "2026-10-09T20:32:21.386Z"
   },
   {
    "source": "bcp",
@@ -1942,6 +1942,38 @@
    "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-07-20/V9ytngZfK1Nf.png",
    "description": "",
    "updatedAt": "2026-08-10T18:03:05.159Z"
+  },
+  {
+   "source": "bcp",
+   "id": "bcp:wASsmCenV6Oq",
+   "name": "PATH TO GLORY - FIRETEAM",
+   "url": "https://www.bestcoastpairings.com/event/wASsmCenV6Oq",
+   "game": "Warhammer 40,000",
+   "date": "2027-02-27",
+   "endDate": "2027-02-28",
+   "format": "team",
+   "teamSize": null,
+   "venue": "Halle Grenette",
+   "address": "Halle Grenette, Rue Grenette, Bourgoin-Jallieu 38300, France",
+   "city": "Bourgoin-Jallieu",
+   "region": "Auvergne-Rhône-Alpes",
+   "zip": "38300",
+   "country": "France",
+   "lat": 45.586445,
+   "lon": 5.2779289,
+   "players": 0,
+   "capacity": 8,
+   "rounds": 5,
+   "teamEvent": true,
+   "started": false,
+   "ended": false,
+   "price": 27500,
+   "currency": "eur",
+   "leagues": [],
+   "organizer": "A12 EVENTS",
+   "photo": "https://d17plg9ep1ptvd.cloudfront.net/2026-10-07/FJcmZFPcKbfm.png",
+   "description": "Date de prise en compte des sorties : 06.02.2027 à 23:59\n\nDate de rendu des listes : 13.02.2027 à 23:59\n\nDeadline de correction : 20.02.2027 à 23:59\n\nToutes les informations et l'event pack sur:\n\nhttps://pathtoglory.fr/\n\n\n8 Equipes de 5 joueurs\n\n08:00 Accueil des joueurs \n\n08:30-12:15 Ronde 1\n\n13:00-16:45 - Ronde 2\n\n17:15- 21:00 Ronde 3\n\n08:00 Accueil des joueurs\n\n08:30-12:15 Ronde 1\n\n13:00-16:45 - Ronde 2\n\n17:00- Remise des prix\n\n18:00 Fin",
+   "updatedAt": "2026-10-08T16:40:59.892Z"
   }
  ]
 }
